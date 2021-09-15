@@ -1,0 +1,43 @@
+    {
+        "name":"acs",
+        
+        "info":["ACS 2018 PUMA micro-data for Alameda and Santa Clara Counties"],
+              
+
+        "variables": {
+            "PUMA_loc":"ACS's Public Use Micro-Data Areas",
+              "age":"Respondent's Age",
+              "sex":"Respondent's gender",
+              "citizenship_status":"Respondent's citizenship status",
+              "race":"Respondent's race",
+              "latinx_detail":"Detailed Latinx country of descent",
+              "ancestry_1st_entry":"Detailed country of descent",
+              "marital_status":"Respondent's current martial status",
+
+    "school_enrollment":"Is the respondent currently enrolled in school?",
+    "language_other_english" : "Does Respondent speak a language other than English?", 
+    "child_birth_past_12m":"Has Respondent gave birth to a child in the last 12 months?" , 
+    "children_presence":"If Female, are children present in the household?",
+        "educational_attainment":"Highest level of education achieved",
+        "sci_eng_degree":"Education degree is from Science or Engineering",
+        "field_degree":"Educational Degree First Field",
+    "employment_status":"Respondent's employment status",
+    "work_class":"class of work - government, private or self-employed",
+    "industry":"work industry employed in",
+              "time_work":"Time to commute to work in minutes",
+            "work_transport":"Transportation mode to work",
+              "hour_worked_wk":"typical hours worked per week",
+              "wages_12m":"wages and salary from past 12 months",
+              "investment_rental_income_12m":"income for investments and rentals",
+"retirement_income_12m":"income from retirement plans in past 12 months", 
+              "total_income_12m":"total income from past 12 months",
+              "public_assistance_income_12m":"income from public assistance",  
+"self_employed_income_12m":"income from self-employment"     
+	      
+
+
+
+
+
+              }
+    }
