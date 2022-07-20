@@ -23,7 +23,7 @@
  "Freq_Gather_Socially":"In the past 12 months, how often did you get together socially withfriends or relatives?",
  "Freq_Neighbors_Chat" : "In the past 12 months, how often did you get together with any of yourneighbors just to chat or for a social visit?",        
  "Freq_Rel_Services":"How often have you attended church, synagogue, temple, mosque, or religious services in the past 12 months?",
- "Freq_Sex_Partner":"On average, how often do you have sexual relations with your partner? (times per month) By "sexual relations" we mean vaginal intercourse, oral sex, anal sex, or other types of sexual activity." ,         
+ "Freq_Sex_Partner":"On average, how often do you have sexual relations with your partner? (times per month) By sexual relations we mean vaginal intercourse, oral sex, anal sex, or other types of sexual activity." ,         
  "General_Health":"How would you describe your general health?", 
  "Happy_7day":"During the past 7 days, I was happy.",                
  "Height_Feet":"Height in Feet",
@@ -41,7 +41,7 @@
 "Job_Satisfaction" :"How satisfied or dissatisfied are you with this job as a whole?",
 "Living_Arrangements" :"What are your current living arrangements?",
 "Marijuana_Usage_Monthly":"During the past 30 days, on how many days did you use marijuana?",
-"Marital_Status" :"Current marital status"             
+"Marital_Status" :"Current marital status" ,            
  "Migraines" :"Had five or more headaches that were at least 4 hours long; one-sided, pulsating, intense, or worsened by activity; and associated with nausea, vomiting or sensitivity to light or sound" ,                 
  "Military_Service":"Have you ever served in the military?",         
 "MODE" :"Mode the Survey was completed." ,                     
