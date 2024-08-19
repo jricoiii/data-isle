@@ -6,6 +6,7 @@
 
         "variables": {
           
+"AGE":"Age",
 "SEX":"Sex",         
 "SEXORIEN":"Sexual orientation",
 "MARSTCOHAB":"Marital status, including living with partne",
