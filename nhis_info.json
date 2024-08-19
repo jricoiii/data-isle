@@ -1,0 +1,67 @@
+    {
+        "name":"nhis",
+        
+        "info":["National Health Interview Survey 2022"],
+              
+
+        "variables": {
+          
+"SEX":"Sex",         
+"SEXORIEN":"Sexual orientation",
+"MARSTCOHAB":"Marital status, including living with partne",
+"RACENEW" :"Self-reported Race",               
+"HISPETH":"Hispanic ethnicity",
+"HISPRACE":"Hispanic ethnicity and self-reported race",                     
+"YRSINUSG":"Number of years spent in the U.S.",
+"USBORN":"Born in the United States",                   
+"CITIZEN":"U.S. citizenship",
+"EDUC":"Educational attainment",
+ "SCHOOLNOW":"Currently attending school", 
+ "EMPSTAT":"Employment status in past 1 to 2 weeks",
+"HOURSWRK":"Total hours worked last week or usually",
+"EMPHI":"Workplace offered health insurance",
+ "EMPFT":"Usually work 35+ hours per week",
+ "OWNERSHIP" : "Family's home owned or rented",        
+ "HOUYRSLIV":"Length of time in house or apartment",
+ "HEALTH":"Health status" ,         
+ "HEIGHT":"Height in inches without shoes", 
+ "WEIGHT":"Weight in Pounds",                
+ "BMICALC":"BMI Calculation",
+ "BMICAT":"Categorical body mass index",               
+ "DELAYCOST":"Medical care delayed due to cost, past 12 months",
+ "MHRX":"Took medication for emotions/concentration/behavior, past 12 months",    
+ "YDELAYMENTAL":"Delayed getting mental health counseling or therapy due to cost, past 12 months",
+ "PREMEDYR":"Used prescription medication, past 12 months",                    
+ "ADDEV":"Ever told had ADHD/ADD",
+ "ADHDNOW" :"Currently has ADHD or ADD" ,          
+ "CANCEREV":"Ever told had cancer",
+ "CHOLHIGHEV":  "Ever told had high cholesterol" ,            
+ "CHOLHIGHYR" :"Had high cholesterol, past 12 months",
+ "DEPRESSEV" :"Ever had depression" ,  
+"LEARNDEV" :"Ever told had a learning disability",
+"STROKEV" :"Ever told had a stroke",
+"ALC5UPEVYR ":"Ever had 5+ drinks in a day, past year",
+"ALC5UPOCC30D" :"Occasions had 5+ drinks in a row, past 30 days" ,            
+ "ALCSTAT1" :"Alcohol drinking status" ,                 
+ "PA18AERSTR":"Physical activity met 2018 guidelines for aerobic and/or strengthening activity",         
+"HRSLEEP" :"Usual hours sleep per day" ,                     
+"SLEEPRESTFRQ":"How often woke up feeling well rested, past 30 days" ,            
+"SLEEPFALLFRQ" : "How often had trouble falling asleep, past 30 days",
+"SLEEPSTAYFRQ" : "How often had trouble staying asleep, past 30 days" ,           
+ "SLEEPMEDFRQ" : "How often took medication for sleep, past 30 days" ,                 
+ "DSOCIALP" :"Amount of difficulty participating in social activities"   ,                
+ "WORFREQ" : "How often feel worried, nervous, or anxious"  ,    
+ "WORRX"  : "Take medication for worried, nervous, or anxious feelings" ,   
+ "WORFEELEVL"  :"Level of worried, nervous, or anxious feelings, last time",               
+ "GADANX" : "Feel anxious or nervous: past two weeks",          
+ "DEPFREQ" :"How often feel depressed" ,           
+ "DEPRX":"Take medication for depression",                
+ "DEPFEELEVL":"Level of depression, last time depressed" ,          
+ "CVDDIAG":"Ever told had or likely had coronavirus/COVID-19", 
+ "CVDTESTRSLT":"Had coronavirus/COVID-19, according to test",
+ "CVDSYMP" :"Severity of coronavirus/COVID-19 symptoms at their worst"
+              
+	      
+
+              }
+    }
