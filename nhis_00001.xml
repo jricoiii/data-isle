@@ -1,0 +1,3725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-c15967d0-1111-013a-f613-0242c0a81004-nhis_00001.dat-nhis.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an Integrated Health Interview Series Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'nhis_00001.dat'</subTitl>
+        <IDNo>ddi2-c15967d0-1111-013a-f613-0242c0a81004-nhis_00001.dat-nhis.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2024-08-13">August 13, 2024</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract nhis_00001.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2024-08-13">August 13, 2024</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="nhis">IPUMS NHIS</serName>
+        <serInfo>DOI:10.18128/D070.V7.3</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2024-08-13"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Person Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Core Demographic Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Housing Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">General Health Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Access to Care Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Medication Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Condition Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Alcohol Consumption Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Physical Activity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Sleep Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Limitation Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Anxiety Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Depression Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">COVID-19 Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2445">
+        <timePrd date="2022" event="single">2022</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2022 NHIS
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="yes"><![CDATA[The Public Health Service Act (Section 308 (d)) provides that the data collected by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), may be used only for the purpose of health statistical reporting and analysis. Any effort to determine the identity of any reported case is prohibited by this law. NCHS does all it can to assure that the identity of data subjects cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the data files. Any intentional identification or disclosure of a person or establishment violates the assurances of confidentiality given to the providers of the information. 
+
+Therefore, users will: 
+
+Use the data in these data files for statistical reporting and analysis only. 
+
+Make no use of the identity of any person or establishment discovered inadvertently and advise the Director, NCHS, of any such discovery (301-458-4500). 
+
+Not link these data files with individually identifiable data from other NCHS or non-NCHS data files. 
+
+By using these data, you signify your agreement to comply with the above-stated statutorily-based requirements. ]]></confDec>
+        <contact URI="http://www.nhis.ipums.org/" affiliation="IPUMS">Integrated Health Interview Series</contact>
+        <citReq><![CDATA[Publications and research reports based on the NHIS database must cite it appropriately.  The citation is as follows:
+
+Lynn A. Blewett, Julia A. Rivera Drew, Miriam L. King, Kari C.W. Williams, Annie Chen, Stephanie Richards, and Michael Westberry. IPUMS Health Surveys: National Health Interview Survey, Version 7.3 [dataset]. Minneapolis, MN: IPUMS, 2023. https://doi.org/10.18128/D070.V7.3
+
+If possible, citations should also include the URL for the NHIS site:  http://www.nhis.ipums.org.
+
+Please see http://www.nhis.ipums.org/nhis/citation.shtml for precise formatting of the citation.]]></citReq>
+        <conditions><![CDATA[The Public Health Service Act (Section 308 (d)) provides that the data collected by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), may be used only for the purpose of health statistical reporting and analysis. Any effort to determine the identity of any reported case is prohibited by this law. NCHS does all it can to assure that the identity of data subjects cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the data files. Any intentional identification or disclosure of a person or establishment violates the assurances of confidentiality given to the providers of the information. 
+
+Therefore, users must: 
+
+Use the data in these data files for statistical reporting and analysis only. 
+
+Make no use of the identity of any person or establishment discovered inadvertently and advise the Director, NCHS, of any such discovery (301-458-4500). 
+
+Not link these data files with individually identifiable data from other NCHS or non-NCHS data files. 
+
+By using these data, you signify your agreement to comply with the above-stated statutorily-based requirements. 
+
+Furthermore, users of NHIS data must agree to abide by the conditions of use. Users must agree to the following conditions:
+  
+  
+(1) Use the data in these data files for statistical reporting and analysis only 
+
+(2) Make no use of the identity of any person or establishment discovered inadvertently and advise the Director of NCHS of any such discovery (301-458-4500) 
+
+(3) Do not link these data with individually-identifiable data from NCHS or non-NCHS data files 
+
+(4) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use and distribute these data, but you may not charge a fee for the data if you distribute them to others. 
+
+(5) Cite the NHIS appropriately.  Publications and research reports based on the database must cite it appropriately.  Please see http://www.nhis.ipums.org/nhis/citation.shtml
+
+(6) NHIS cannot be used to study small geographic areas.  The smallest geographical areas identified in the NHIS are regions (groups of states) and a limited number of metropolitan areas.
+
+(7) This system provides individual-level data only.  The NHIS Data Extraction System will not produce tables. You will need to use a statistical software package, such as Stata, SAS, or SPSS, to analyze the downloaded data.  Alternatively, you may use the NHIS-SDA tabulator to produce tables online, without making a data extract.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  ipums health survey 2022]]></notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>nhis_00001.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+  <location EndPos="4" StartPos="1" width="4"/>
+  <labl>Survey year</labl>
+  <txt><![CDATA[YEAR is a four-digit variable reporting the calendar year (e.g., 2003) the survey was conducted and the data were collected. YEAR indicates the survey year reported on the household record.]]></txt>
+  <codInstr><![CDATA[This is a 4-digit numeric variable with 0 implied decimal places]]></codInstr>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SERIAL" dcml="0" files="ExtractData" intrvl="contin" name="SERIAL">
+  <location EndPos="10" StartPos="5" width="6"/>
+  <labl>Sequential Serial Number, Household Record</labl>
+  <txt><![CDATA[SERIAL is an IPUMS NHIS-constructed value that is an identifying number unique to each household in a given survey year. The combination of YEAR and SERIAL provides a unique identifier for every household in the IPUMS NHIS database.]]></txt>
+  <codInstr><![CDATA[CodesSERIAL is a 6-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="STRATA" dcml="0" files="ExtractData" intrvl="contin" name="STRATA">
+  <location EndPos="14" StartPos="11" width="4"/>
+  <labl>Stratum for variance estimation</labl>
+  <txt><![CDATA[STRATA is an IPUMS NHIS-constructed variable based on the NHIS sample design variables in the public use files concatenated with a sample design period indicator. STRATA represents the impact of the sample design stratification on the estimates of variance and standard errors. It is constant within a sample design period and changes between sample design periods. For analysis, researchers need to use STRATA in conjunction with PSU to account for stratification and clustering when computing variance estimates with IPUMS NHIS data.
+
+See the User Notes on variance estimation for additional information.     
+
+After the 2019 redesign, there is no longer a sampling weight to produce household population estimates. See the user note on the calculation and use of sampling weights for additional information.]]></txt>
+  <codInstr><![CDATA[CodesSTRATA is a 5-digit numeric variable.
+
+000:	Not in Universe]]></codInstr>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PSU" dcml="0" files="ExtractData" intrvl="contin" name="PSU">
+  <location EndPos="17" StartPos="15" width="3"/>
+  <labl>Primary sampling unit (PSU) for variance estimation</labl>
+  <txt><![CDATA[PSU is the primary sampling unit variable that represents the impact of the sample design clustering on the estimates of variance and standard errors. It is constant within a sample design period and changes between sample design periods. For analysis, researchers need to use PSU in conjunction with STRATA to account for stratification and clustering when computing variance estimates with IPUMS NHIS data.  
+
+See the User Notes on variance estimation for additional information.
+
+After the 2019 redesign, there is no longer a sampling weight to produce household population estimates. See the user note on the calculation and use of sampling weights for additional information.]]></txt>
+  <codInstr><![CDATA[CodesPSU is a 3-digit numeric variable.
+
+000:	Not in Universe]]></codInstr>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="NHISHID" dcml="0" files="ExtractData" intrvl="contin" name="NHISHID">
+  <location EndPos="31" StartPos="18" width="14"/>
+  <labl>NHIS Unique identifier, household</labl>
+  <txt><![CDATA[NHISHID is an IPUMS NHIS-constructed value that is an identifying number unique to each household in a given survey year. Using NHISHID, analysts can link IPUMS NHIS data with additional household-level data elements, from the NHIS source public use data files, that are not currently available in IPUMS.  NHISHID is a single variable constructed by concatenating multiple data elements from the NHIS source data files.  Analysts wishing to link person-level NHIS data should use the person-level linking key NHISPID.
+
+See the user note on LINKING for instructions on how to create links between IPUMS NHIS and NHIS source data.  
+
+After the 2019 redesign, there is no longer a sampling weight to produce household population estimates. See the user note on the calculation and use of sampling weights for additional information.]]></txt>
+  <codInstr><![CDATA[CodesNHISHID is a 14-character string variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="character"/>
+</var>
+<var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+  <location EndPos="33" StartPos="32" width="2"/>
+  <labl>Person number within family/household (from reformatting)</labl>
+  <txt><![CDATA[PERNUM is an IPUMS NHIS-constructed variable that numbers all persons within each family or within each household consecutively (starting with "1") in the order in which they appear in the original NHIS data.  PERNUM was created by IPUMS NHIS during the process of reformatting the original NHIS public use files. 
+
+Prior to 2019, PERNUM numbers all persons within each family. Beginning in 2019, PERNUM numbers all person within a household and has a maximum of "2," as only the sample child and sample adult are identified in the original NHIS data. For more information, see the Comparability section.]]></txt>
+  <codInstr><![CDATA[CodesPERNUM is a 2-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="NHISPID" dcml="0" files="ExtractData" intrvl="contin" name="NHISPID">
+  <location EndPos="49" StartPos="34" width="16"/>
+  <labl>NHIS Unique Identifier, person</labl>
+  <txt><![CDATA[NHISPID is an IPUMS NHIS-constructed value that is an identifying number unique to each person in a given survey year.  Using NHISPID, analysts can link IPUMS NHIS data with additional data elements, from the NHIS source public use data files, that are not currently available in IPUMS.  For example, researchers can use NHISPID to link variables in IPUMS NHIS with other variables from the core NHIS files variables.  Alternatively, users may use NHISPID to link variables from IPUMS with variables from NHIS supplements that are not yet part of IPUMS NHIS. NHISPID is a single variable constructed by concatenating multiple data elements from the NHIS source data files.  
+
+Analysts wishing to link household-level NHIS data should use the household-level linking key NHISHID.
+
+See the user note on LINKING for instructions on how to create links between IPUMS NHIS and NHIS source data.]]></txt>
+  <codInstr><![CDATA[CodesNHISPID is a 16-character string variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="character"/>
+</var>
+<var ID="HHX" dcml="0" files="ExtractData" intrvl="contin" name="HHX">
+  <location EndPos="56" StartPos="50" width="7"/>
+  <labl>Household number (from NHIS)</labl>
+  <txt><![CDATA[For sample adults and sample children, HHX reports the person's household number on the original NHIS data. HHX is unique within sample but only unique across samples when combined with information on year. Prior to 2019, this variable was available for all persons.]]></txt>
+  <codInstr><![CDATA[This is a 7-digit numeric variable with 0 implied decimal places]]></codInstr>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="character"/>
+</var>
+<var ID="SAMPWEIGHT" dcml="3" files="ExtractData" intrvl="contin" name="SAMPWEIGHT">
+  <location EndPos="68" StartPos="57" width="12"/>
+  <labl>Sample Person Weight</labl>
+  <txt><![CDATA[SAMPWEIGHT is an IPUMS NHIS-constructed variable that represents, with a few exceptions, the random selection of a sample person in the household to complete a supplement survey.  (The exceptions to this generalization are the 1983 health insurance supplement and 1993 health insurance, access to care, and family resources supplements, which were asked of all persons in the second half of the year.)
+
+For survey years 1997 forward, SAMPWEIGHT is based on the Final Annual Sample Adult and Sample Child Weights in the original NHIS public use files. This weight should be used with variables taken from the sample adult or sample child supplements for 1997 on (as indicated by the supplement title in the "Source" section toward the top of each variable description). 
+
+SAMPWEIGHT also contains the sampling weights for a subset of the pre-1997 supplements, for which the definition of a sample person, and the rules governing the selection of sample persons, are less consistent. The universe statements for SAMPWEIGHT document who was included in the supplements requiring use of this weight on a year-by-year basis. SAMPWEIGHT consistently represents the inverse probability of selection into a supplement, adjusted for non-response with additional post-stratification adjustments for age, race/ethnicity, and sex using the Census Bureau's population control totals.
+
+Users should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes on the use of sampling weights for additional information.]]></txt>
+  <codInstr><![CDATA[CodesSAMPWEIGHT is a 12-digit numeric variable with three implied decimals. That is, values of 012345678912 should be interpreted as 12345678.912. The command files delivered with IPUMS extracts automatically divide SAMPWEIGHT by 1,000, so no further adjustment is needed.]]></codInstr>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ASTATFLG" dcml="0" files="ExtractData" intrvl="discrete" name="ASTATFLG">
+  <location EndPos="69" StartPos="69" width="1"/>
+  <labl>Sample adult flag</labl>
+  <txt><![CDATA[ASTATFLG identifies the record of a sample adult. A sample adult is the one person over age 18 per household who is randomly selected to complete the sample adult questionnaire. For 1997-2018, a sample adult is the one adult per family who was selected at random by the computerized survey instrument to answer additional health-related questions, under the survey design instituted in 1997.  All persons other than sample adults (those not having the value 1 in ASTATFLG) are coded as "not in universe" for variables derived from the additional questions asked only of sample adults.  (Some additional questions were asked of both sample adults and sample children.)  Every adult in each family, except for active duty armed forces members, was eligible to be selected as the sample adult.  
+
+Prior to 2019, ASTATFLG has the value "no one selected as sample adult" (code 4) for all adults in the family in the following two cases: 1) sample adult status was incorrectly assigned to someone in the armed forces, or 2) it could not be ascertained which adult in the family was chosen as sample adult.   
+
+For 2020 only, SALNGPRTFLG further distinguishes between sample adults included in the longitudinal sample and sample adults included in the partial sample. Please see the user note on COVID-related changes to the NHIS for more information on the longitudinal and partial samples.
+
+A similar flag variable, CSTATFLG, identifies the record of a sample child.
+
+This variable is automatically included in all extracts, but only has valid values for 1997 forward.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Sample adult, has record</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Sample adult, no record</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Not selected as sample adult</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>No one selected as sample adult</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Armed forces member</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>AF member, selected as sample adult</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CSTATFLG" dcml="0" files="ExtractData" intrvl="discrete" name="CSTATFLG">
+  <location EndPos="70" StartPos="70" width="1"/>
+  <labl>Sample child flag</labl>
+  <txt><![CDATA[CSTATFLG identifies the record of a sample child. A sample child is the one person under age 18 per household who is randomly selected to complete the sample child questionnaire. For 1997-2018, the sample child is the one person under age 18 per family who was selected at random by the computerized survey instrument for additional health-related questions, under the survey design instituted in 1997. All persons other than sample children (those not having the value 1 in CSTATFLG) are coded as "not in universe" for variables derived from these additional questions asked only of sample children.  (Some additional questions were asked of both sample adults and sample children.)   
+
+Prior to 2019, Every child in each family, except for active duty armed forces members and emancipated minors, was eligible to be selected as the sample child.  Emancipated minors are persons age 14 to 17 who are married or living with a partner OR who live on their own without the supervision of a parent, other adult family member, or legal guardian.  
+
+CSTATFLG has the value "no one selected as sample child" (code 4) for all children in the family in the following two cases prior to 2019: 1) if sample child status was incorrectly assigned to someone who was ineligible, or 2) if it was unknown which child in the family was chosen as sample child.   
+
+A similar flag variable, ASTATFLG, identifies the record of a sample adult.
+
+This variable is automatically included in all extracts, but only has valid values for 1997 forward.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Sample child-has record</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Sample child-no record</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Not selected as sample child</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>No one selected as sample child</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Emancipated minor</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="AGE" dcml="0" files="ExtractData" intrvl="contin" name="AGE">
+  <location EndPos="73" StartPos="71" width="3"/>
+  <labl>Age</labl>
+  <txt><![CDATA[AGE reports the individual's age, in years since their last birthday. Starting in 2019, "Unknown-refused" and "Unknown-don't know" are allowed responses. Prior to 2019 age is not coded as "unknown" for any persons included in the IPUMS NHIS data. As the public use file's codebooks for 1998-2003 state, "Because age is an important variable for instrument check items and in developing the weights, all respondents must have data on age."]]></txt>
+  <codInstr><![CDATA[CodesAGE is a 3-digit-numeric variable.
+
+085:	Top code for 85 years or older (1963-1968 and 1997-forward)
+090:	Top code for 90 years or older (1996 only)
+099:	Top code for 99 years or older (1969-1995)
+997:	Unknown-refused
+998:	Unknown-not ascertained
+999:	Unknown-don't know]]></codInstr>
+  <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SEX" dcml="0" files="ExtractData" intrvl="discrete" name="SEX">
+  <location EndPos="74" StartPos="74" width="1"/>
+  <labl>Sex</labl>
+  <txt><![CDATA[SEX indicates whether the person was male or female.  
+
+Starting in 2019, "Unknown-refused" and "Unknown-don't know" responses are allowed. Prior to 2019, SEX is not coded as "unknown" for any persons included in the IPUMS NHIS data.
+
+According to the 2020 Survey Description, for some variables, including SEX, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Male</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Female</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SEXORIEN" dcml="0" files="ExtractData" intrvl="discrete" name="SEXORIEN">
+  <location EndPos="75" StartPos="75" width="1"/>
+  <labl>Sexual orientation</labl>
+  <txt><![CDATA[For sample adults ages 18 and older, SEXORIEN reports the person's sexual orientation. Respondents were asked "Which of the following best represents how you think of yourself?" Response options included: "gay" or "lesbian", "straight, that is, not lesbian or gay", "bisexual", "something else", and "I don't know the answer". The wording of the question differed slightly for men and women, with men being asked if they are "gay" or "straight, that is, not gay" and women being asked if they are "lesbian or gay" or "straight, that is, not lesbian or gay". Persons who responded "something else" or "I don't know the answer" were asked follow-up questions about what they meant by "something else" or "don't know," but due to sample size constraints, those responses are not included in the publicly-available data.
+
+According to the 2020 Survey Description, for some variables, including SEXORIEN, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.
+
+SEXORIEN was first introduced in 2013. Users interested in learning more about the cognitive testing involved in developing the NHIS sexual orientation questions can refer to the NHIS question evaluation report.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Lesbian or gay</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Straight, that is, not lesbian or gay</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Bisexual</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Something else</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>I don't know the answer</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="MARSTCOHAB" dcml="0" files="ExtractData" intrvl="discrete" name="MARSTCOHAB">
+  <location EndPos="76" StartPos="76" width="1"/>
+  <labl>Marital status, including living with partner</labl>
+  <txt><![CDATA[For sample adults (and, prior to 2019, for all persons), MARSTCOHAB reports the person's marital status, including living with a partner.  
+
+This variable was deprecated in 2024. Users looking for a current measure of marital status should use MARSTCUR or MARSTLEG.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Married, spouse present</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Married, spouse absent</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Married, spouse in household unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Separated</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Divorced</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Widowed</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Living with partner</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Never married</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown marital status</labl>
+  </catgry>
+  <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="RACENEW" dcml="0" files="ExtractData" intrvl="discrete" name="RACENEW">
+  <location EndPos="79" StartPos="77" width="3"/>
+  <labl>Self-reported Race (Post-1997 OMB standards)</labl>
+  <txt><![CDATA[RACENEW provides information on self-reported race of sample adults and sample children (and prior to 2019, all persons), using the October 30, 1997 revision of Statistical Policy Directive No. 15, Race and Ethnic Standards for Federal Statistics and Administrative Reporting.]]></txt>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>White only</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Black/African American only</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>American Indian/Alaska Native only</labl>
+  </catgry>
+  <catgry>
+    <catValu>400</catValu>
+    <labl>Asian only</labl>
+  </catgry>
+  <catgry>
+    <catValu>500</catValu>
+    <labl>Other Race and Multiple Race</labl>
+  </catgry>
+  <catgry>
+    <catValu>510</catValu>
+    <labl>Other Race and Multiple Race (2019-forward: Excluding American Indian/Alaska Native)</labl>
+  </catgry>
+  <catgry>
+    <catValu>520</catValu>
+    <labl>Other Race</labl>
+  </catgry>
+  <catgry>
+    <catValu>530</catValu>
+    <labl>Race Group Not Releasable</labl>
+  </catgry>
+  <catgry>
+    <catValu>540</catValu>
+    <labl>Multiple Race</labl>
+  </catgry>
+  <catgry>
+    <catValu>541</catValu>
+    <labl>Multiple Race (1999-2018: Including American Indian/Alaska Native)</labl>
+  </catgry>
+  <catgry>
+    <catValu>542</catValu>
+    <labl>American Indian/Alaska Native and Any Other Race</labl>
+  </catgry>
+  <catgry>
+    <catValu>997</catValu>
+    <labl>Unknown-Refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>998</catValu>
+    <labl>Unknown-Not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Unknown-Don't Know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HISPETH" dcml="0" files="ExtractData" intrvl="discrete" name="HISPETH">
+  <location EndPos="81" StartPos="80" width="2"/>
+  <labl>Hispanic ethnicity</labl>
+  <txt><![CDATA[HISPETH identifies and classifies persons of Hispanic/Spanish/Latino origin or ancestry. According to the Field Representative's Manual for 1976-1981, "The term 'national origin or ancestry' refers to the national or cultural group from which the person is descended. A person may report his origin based on the origin of a parent, a grandparent, or some far-removed ancestor." The 1982 Field Representative's Manual noted, "There is no set rule as to how many generations are to be taken into account in determining origin."
+
+According to the 2020 Survey Description, for some variables, including HISPETH, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.]]></txt>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Not Hispanic/Spanish origin</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Mexican</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Mexican-Mexicano</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Mexicano</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Mexican-American</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>Chicano</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Puerto Rican</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>Cuban/Cuban American</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>Dominican (Republic)</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>Other Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>Central or South American</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>Other Latin American, type not specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>Other Spanish</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>Hispanic/Latino/Spanish, non-specific type</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>Hispanic/Latino/Spanish, type refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>Hispanic/Latino/Spanish, type not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>Hispanic/Spanish, type don't know</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>Multiple Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>Unknown if Hispanic/Spanish origin</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>Two origins, unknown which is the main</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>Origin unknown, refused or not reported</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HISPRACE" dcml="0" files="ExtractData" intrvl="discrete" name="HISPRACE">
+  <location EndPos="83" StartPos="82" width="2"/>
+  <labl>Hispanic ethnicity and self-reported race</labl>
+  <txt><![CDATA[For sample adults and sample children, HISPRACE provides information on the self-reported Hispanic origin and racial background in accordance with the Office of Management and Budget's Revisions to the Standards for the Classification of Federal Data on Race and Ethnicity.
+
+HISPRACE is a combination of the information collected for HISPYN and RACENEW into one variable.
+
+According to the 2020 Survey Description, for some variables, including HISPRACE, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Non-Hispanic White</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Non-Hispanic Black/African American</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Non-Hispanic Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Non-Hispanic American Indian/Alaskan Native</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Non-Hispanic American Indian/Alaskan Native and any other group</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Non-Hispanic Other single and multiple races</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="YRSINUSG" dcml="0" files="ExtractData" intrvl="discrete" name="YRSINUSG">
+  <location EndPos="84" StartPos="84" width="1"/>
+  <labl>Number of years spent in the U.S. (grouped year estimate)</labl>
+  <txt><![CDATA[For sample children and sample adults (or, prior to 2019, all persons) born outside the United States, YRSINUSG indicates how long they have been living in the United States.  In most cases, this information was collected via the question, "In what year did you come to the United States to stay?"  If the response to this question was "refused" or "don't know," the interviewer tried to collect the information via an alternatively phrased question: "About how long have you been in the United States?"   
+
+The data included in the public use files for YRSINUSG are recodes of the responses to these questions, with each answer in the form of a calendar year converted to a number of years present.  The calendar year format of the initial question would have increased the precision of responses by discouraging rounding; the recoded format (number of years present) is easier for researchers to analyze. 
+
+According to the 2020 Survey Description, for some variables, including YRSINUSG, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than 1 year</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>1 year to less than 5 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>5 years to less than 10 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>10 years to less than 15 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>15 years or more</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="USBORN" dcml="0" files="ExtractData" intrvl="discrete" name="USBORN">
+  <location EndPos="86" StartPos="85" width="2"/>
+  <labl>Born in the United States</labl>
+  <txt><![CDATA[USBORN indicates whether the respondent was born in the United States.  To collect this information, interviewers asked, "Where were you born?"  Responses were recoded in the original NHIS public use files into the categories included in this variable. 
+
+Take note: Changes in the definition of U.S. born
+In 1997-2001, the available codes distinguished between born in a U.S. state or D.C. or born outside of the U.S., where "outside of the U.S." included being born in a U.S. territory. In 2002, an additional category, "born in a U.S. territory" was introduced as distinct from born outside of the U.S. In 2019, the available codes changed so that born in the 50 states or D.C. was combined into a single category with born in a U.S. territory, distinguished from born outside of the U.S. or U.S. territory. 
+
+According to the 2020 Survey Description, for some variables, including USBORN, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.
+
+Related Variables&nbsp;
+REGIONBR provides additional detail on the place of birth of respondents born outside the United States.  In REGIONBR, respondents' reported countries of birth were recoded in the original NHIS public use files into 12 broad regional categories.
+
+CITIZEN provides information on whether the person is a citizen of the U.S.
+]]></txt>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>No, born in U.S. territory</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>No, born outside U.S. and U.S. territories</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Yes, born in U.S.</labl>
+  </catgry>
+  <catgry>
+    <catValu>96</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CITIZEN" dcml="0" files="ExtractData" intrvl="discrete" name="CITIZEN">
+  <location EndPos="87" StartPos="87" width="1"/>
+  <labl>U.S. citizenship</labl>
+  <txt><![CDATA[For all sample children and sample adults who did not have a don't know, not ascertained, or refused response to whether they were born in the United States or a United States territory (USBORN), CITIZEN indicates whether the individual was a U.S. citizen. Prior to 2019, this variable was available for all persons.
+
+According to the 2020 Survey Description, for some variables, including CITIZEN, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No, not U.S. citizen</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes, U.S. citizen</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown--refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown--not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown--don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EDUC" dcml="0" files="ExtractData" intrvl="discrete" name="EDUC">
+  <location EndPos="90" StartPos="88" width="3"/>
+  <labl>Educational attainment</labl>
+  <txt><![CDATA[For sample adults (and, prior to 2019, for all persons aged 5 and older), EDUC reports the highest level of schooling an individual had completed, in terms of completed grades for persons with less than a high school degree, and in terms of degrees attained for high school graduates and those with higher education.  Respondents were handed a card listing recognized categories and asked to identify the correct category.
+
+According to the Field Representative's Manuals for 1997-2000, only "regular schooling which advances a person toward an elementary or high school diploma, or a college/university/professional school (such as law, medicine, dentistry)" counted as education.  Schooling in settings other than "regular schools" counted only if the credits obtained were acceptable in a regular school system.  Thus, for example, "adult education" classes not taken for credit or for the attainment of a college degree did not count.  
+
+For the end of high school, EDUC distinguishes between those who completed twelfth grade but did not attain a diploma (e.g., those who failed to pass state-mandated high school exit examinations), those who graduated from high school, and those passed the GED (General Equivalence Degree) Test (which certifies that the test taker has attained high school-level academic skills).  Persons who attained a high school diploma in less than twelve years were to be recorded as "high school graduates," a guideline consistent with EDUC's emphasis on degrees attained rather than years spent in the classroom.  The Field Representative's Manual for 1997-2000 directed interviewers to probe to determine whether persons who attended "post-graduate" high school classes but did not attend college had received a high school diploma.  
+
+For nurses, interviewers were to determine whether training was received in a college or in a nursing school (with the grade completed at the last regular--non-nursing--school to be entered in the latter case).  For a person attending special education classes or a school for persons with mental, physical, or developmental difficulties, interviewers were to ask which grade in a regular school most closely matched the individual's education level.  Persons currently in school were generally assumed to have completed the previous grade.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Grade 12 or less, no high school diploma or equivalent</labl>
+  </catgry>
+  <catgry>
+    <catValu>101</catValu>
+    <labl>Grade 8 or less (no further detail)</labl>
+  </catgry>
+  <catgry>
+    <catValu>102</catValu>
+    <labl>Never attended/kindergarten only</labl>
+  </catgry>
+  <catgry>
+    <catValu>103</catValu>
+    <labl>Grades 1-11 (no further detail)</labl>
+  </catgry>
+  <catgry>
+    <catValu>104</catValu>
+    <labl>Grade 1</labl>
+  </catgry>
+  <catgry>
+    <catValu>105</catValu>
+    <labl>Grade 2</labl>
+  </catgry>
+  <catgry>
+    <catValu>106</catValu>
+    <labl>Grade 3</labl>
+  </catgry>
+  <catgry>
+    <catValu>107</catValu>
+    <labl>Grade 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>108</catValu>
+    <labl>Grade 5</labl>
+  </catgry>
+  <catgry>
+    <catValu>109</catValu>
+    <labl>Grade 6</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>Grade 7</labl>
+  </catgry>
+  <catgry>
+    <catValu>111</catValu>
+    <labl>Grade 8</labl>
+  </catgry>
+  <catgry>
+    <catValu>112</catValu>
+    <labl>Grade 9-12, no diploma (no further detail)</labl>
+  </catgry>
+  <catgry>
+    <catValu>113</catValu>
+    <labl>Grade 9</labl>
+  </catgry>
+  <catgry>
+    <catValu>114</catValu>
+    <labl>Grade 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>115</catValu>
+    <labl>Grade 11</labl>
+  </catgry>
+  <catgry>
+    <catValu>116</catValu>
+    <labl>12th grade, no diploma</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>High school diploma or GED</labl>
+  </catgry>
+  <catgry>
+    <catValu>201</catValu>
+    <labl>High school graduate</labl>
+  </catgry>
+  <catgry>
+    <catValu>202</catValu>
+    <labl>GED or equivalent</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>Some college, no 4yr degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>301</catValu>
+    <labl>Some college, no degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>302</catValu>
+    <labl>AA degree: technical/vocational/occupational</labl>
+  </catgry>
+  <catgry>
+    <catValu>303</catValu>
+    <labl>AA degree: academic program</labl>
+  </catgry>
+  <catgry>
+    <catValu>400</catValu>
+    <labl>Bachelor's degree (BA,AB,BS,BBA)</labl>
+  </catgry>
+  <catgry>
+    <catValu>500</catValu>
+    <labl>Master's, Professional, or Doctoral Degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>501</catValu>
+    <labl>Master's degree (MA,MS,Med,MBA)</labl>
+  </catgry>
+  <catgry>
+    <catValu>502</catValu>
+    <labl>Professional (MD,DDS,DVM,JD)</labl>
+  </catgry>
+  <catgry>
+    <catValu>503</catValu>
+    <labl>Doctoral degree (PhD, EdD)</labl>
+  </catgry>
+  <catgry>
+    <catValu>504</catValu>
+    <labl>Other degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>505</catValu>
+    <labl>Professional School or Doctoral degree, topcoded (MD, DDS, DVM, JD, PhD, EdD)</labl>
+  </catgry>
+  <catgry>
+    <catValu>996</catValu>
+    <labl>No degree, years of education unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>997</catValu>
+    <labl>Unknown--refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>998</catValu>
+    <labl>Unknown--not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Unknown--don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SCHOOLNOW" dcml="0" files="ExtractData" intrvl="discrete" name="SCHOOLNOW">
+  <location EndPos="91" StartPos="91" width="1"/>
+  <labl>Currently attending school</labl>
+  <txt><![CDATA[For sample adults, SCHOOLNOW reports if the sample adult is currently enrolled in or attending school. If necessary, the interviewer read, "School includes high school, college, trade school, and professional school. Students may be enrolled part-time or full-time."]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTAT">
+  <location EndPos="94" StartPos="92" width="3"/>
+  <labl>Employment status in past 1 to 2 weeks</labl>
+  <txt><![CDATA[EMPSTAT reports whether sample adults were working last week--working for pay; temporarily absent due to illness, vacation, family or maternity leave, or another reason; performing seasonal or contract work; or working at a job or business but NOT for pay (WHYNOWK2). Responses of "no" include both sample adults who were part of the labor force but unemployed and sample adults who were out of the labor force. Additional detail about reasons for not working in the past week can be found in WHYNOWK2. Before 2019, EMPSTAT reports whether persons were part of the labor force--working or seeking work--and, if so, whether they worked, had a job or business from which they were temporarily absent, or were looking for work or on layoff during the preceding two weeks (for 1969-1996) or during the preceding week (for 1997-2018).
+
+In 1969-1996, EMPSTAT is a summary recode of responses to a series of questions. 
+&nbsp;In 1969-1973 interviewers first asked, "Did [person] work at any time last week or the week before - (For females): not counting work around the house?" This question was also asked in 1974-1981, but the wording in these years omitted the instructions "For females" before the phrase "not counting work around the house." In 1982-1996 the question wording was changed to, "During those 2 weeks, did [person] work at any time at a job or business, not counting work around the house? (Include unpaid work in the family farm/business.)
+
+If the answer to the initial question asked in 1969-1996 was negative, interviewers asked whether the person had a job or business, even though he/she did not work during the reference period. The final questions used to categorize current employment status in 1969-1996 were, "Was he looking for work or on layoff from a job [during those 2 weeks]?" and, if yes, "Which--looking for work or on layoff from a job?"In 1997-2018, respondents were asked one general question to ascertain their employment status. 
+&nbsp;Interviewers asked, "Which of the following was [person] doing last week?"  In 1997-2000 interviewers read the following possible responses: "Working at a job or business," "With a job or business but not at work," "Looking for work," and "Not working at a job or business."  Beginning in 2001, the response category "Working at a job or business" was split into two separate categories, "Working for pay at a job or business" and "Working, but not for pay, at a job or business."  The rest of the response categories in 2001-2018 are the same as in 1997-2000.In 2019 forward, EMPSTAT indicates whether someone was employed or not employed in the last week.
+&nbsp;Respondents are asked a series of questions that are used to code a final response to EMPSTAT:
+
+"LAST WEEK, did you work for pay at a job or business?"
+
+"Did you have a job or business LAST WEEK, but were temporarily absent due to illness, vacation, family or maternity leave, or some other reason?"
+
+"What is the MAIN reason you were not working for pay at a job or business last week?"
+
+"Does [sample adult] work for pay at a job or business?"
+NCHS uses these responses to code an individual as "Employed" or "Not employed" in EMPSTAT. Those who indicate they were performing seasonal or contract work or were working at a job or business but not for pay are coded as "Employed." In 2021, only seasonal or contract workers who also worked in the past 12 months are coded as "Employed."Definitions and Instructions]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Employed</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>Working</labl>
+  </catgry>
+  <catgry>
+    <catValu>111</catValu>
+    <labl>Working for pay at job/business</labl>
+  </catgry>
+  <catgry>
+    <catValu>112</catValu>
+    <labl>Working, w/out pay, at job/business</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>With job, but not at work</labl>
+  </catgry>
+  <catgry>
+    <catValu>121</catValu>
+    <labl>With job, not at work: not laid-off, not looking</labl>
+  </catgry>
+  <catgry>
+    <catValu>122</catValu>
+    <labl>With job, not at work: looking</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Not employed</labl>
+  </catgry>
+  <catgry>
+    <catValu>210</catValu>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>211</catValu>
+    <labl>Unemployed: On layoff</labl>
+  </catgry>
+  <catgry>
+    <catValu>212</catValu>
+    <labl>Unemployed: On layoff and looking</labl>
+  </catgry>
+  <catgry>
+    <catValu>213</catValu>
+    <labl>Unemployed: Unk if looking or laid off</labl>
+  </catgry>
+  <catgry>
+    <catValu>214</catValu>
+    <labl>Unemployed: Looking or on layoff</labl>
+  </catgry>
+  <catgry>
+    <catValu>215</catValu>
+    <labl>Unemployed: Have job to return to</labl>
+  </catgry>
+  <catgry>
+    <catValu>216</catValu>
+    <labl>Unemployed: Had job during the round</labl>
+  </catgry>
+  <catgry>
+    <catValu>217</catValu>
+    <labl>Unemployed: No job during reference period</labl>
+  </catgry>
+  <catgry>
+    <catValu>220</catValu>
+    <labl>Not in labor force</labl>
+  </catgry>
+  <catgry>
+    <catValu>900</catValu>
+    <labl>Unknown-all causes</labl>
+  </catgry>
+  <catgry>
+    <catValu>997</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>998</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HOURSWRK" dcml="0" files="ExtractData" intrvl="discrete" name="HOURSWRK">
+  <location EndPos="96" StartPos="95" width="2"/>
+  <labl>Total hours worked last week or usually</labl>
+  <txt><![CDATA[For sample adults aged 18+ (and all persons age 18+ in 2004-2018) who worked at a paid or unpaid job or business last week, held a seasonal or contract position last week, or were not working last week because they were on vacation, on family/maternity leave, unable to work for health reasons, HOURSWRK reports the total hours that the sample person worked in the past week. or in the past two weeks at all jobs/ businesses or at the main job/business. The universe and time period for HOURSWRK were somewhat different for 1979 and 1991. HOURSWORK reports total hours worked in the past two weeks for sample persons aged 17+ in 1979 who, during the past 2 weeks, worked, had a job or business from which they were temporarily absent, or looked for work or were on layoff; in 1991, HOURSWORK reports total work hours worked in the  past two weeks for sample persons aged 18+ in 1991 who were employed in the past 2 weeks and worked for a private company or the federal, state, or local government. Please refer to the Universe and Comparability tabs for more information about changes in the universe, time period, and the types of jobs included in HOURSWRK.
+
+Beginning in 2019, sample adults aged 18+ who held a seasonal or contract position last week continued to be identified by NCHS as included in the universe for HOURSWORK, but were omitted from the HOURSWRK question and had their responses set to "Unknown - Not Ascertained."]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>68</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>69</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>71</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>72</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>73</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>74</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>75</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>76</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>77</catValu>
+    <labl>77</labl>
+  </catgry>
+  <catgry>
+    <catValu>78</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>79</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>80</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>81</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>82</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>83</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>84</catValu>
+    <labl>84</labl>
+  </catgry>
+  <catgry>
+    <catValu>85</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>86</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>87</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>88</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>89</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>90</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>94</catValu>
+    <labl>94</labl>
+  </catgry>
+  <catgry>
+    <catValu>95</catValu>
+    <labl>95+ hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown--refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown--not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown--don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPHI" dcml="0" files="ExtractData" intrvl="discrete" name="EMPHI">
+  <location EndPos="97" StartPos="97" width="1"/>
+  <labl>Workplace offered health insurance</labl>
+  <txt><![CDATA[For sample adults who were working last week or who were not working last week because they were temporarily absent, or who performed seasonal or contract work or who worked at a job or business but not for pay, EMPHI indicates if the respondent was offered health insurance through the job they held last week.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPFT" dcml="0" files="ExtractData" intrvl="discrete" name="EMPFT">
+  <location EndPos="98" StartPos="98" width="1"/>
+  <labl>Usually work 35+ hours per week</labl>
+  <txt><![CDATA[For sample adults who work for pay at a job or business, EMPFT reports if the respondent usually works 35 hours or more per week.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="OWNERSHIP" dcml="0" files="ExtractData" intrvl="discrete" name="OWNERSHIP">
+  <location EndPos="100" StartPos="99" width="2"/>
+  <labl>Family's home owned or rented</labl>
+  <txt><![CDATA[For sample children and sample adults, OWNERSHIP indicates whether the house/apartment that the sample person is living in is owned or being bought, rented, or is occupied by some other arrangement by the person or someone in their family or household. Please see the Universe tab for changes to the universe over time.
+
+This variable was first introduced in 1984 as part of the Supplement on Aging. From 1993 to 1996, this variable is part of the Family Resources supplement that provides information on individuals' health benefits, amount of coverage and income received from employment, welfare benefits, public assistance, and savings.
+
+Questions in the Family Resources supplement are different from those in the core survey in terms of the content and the treatment of missing data. Questions in the Family Resources were normally asked of the month prior to the interview while the core survey asked of the last calendar year. All missing data in the Family Resources supplement were imputed by NHIS. Users can refer to the imputation flag variables OWNFL, RENTMONEYFL, and RENTFREEFL to identify persons with imputed data.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Owned or being bought</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Owned</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Being bought</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Rented</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Other arrangement</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>Rent free</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown--refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown--not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown--don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Housing Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HOUYRSLIV" dcml="0" files="ExtractData" intrvl="discrete" name="HOUYRSLIV">
+  <location EndPos="101" StartPos="101" width="1"/>
+  <labl>Length of time in house or apartment</labl>
+  <txt><![CDATA[For sample children ages 1-17 and sample adults, HOUYRSLIV reports how long they have lived in the house or apartment in which they reside.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than 1 year</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>1 to 3 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>4 to 10 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>11 to 20 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>More than 20 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Housing Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HEALTH" dcml="0" files="ExtractData" intrvl="discrete" name="HEALTH">
+  <location EndPos="102" StartPos="102" width="1"/>
+  <labl>Health status</labl>
+  <txt><![CDATA[For sample adults and sample children, HEALTH rates an individual's general health (as self-reported by the person in question or evaluated by a family member) on a four-point (1972-81) or five-point (1982 forward) Likert scale, ranging from "excellent" to "poor" (along with an unrated "unknown" category).
+
+For 1997-2018, HSTATYR reports whether the health status of sample adults and sample children was better, worse, or about the same as one year ago.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Excellent</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Very Good</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Good</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Fair</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Poor</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HEIGHT" dcml="0" files="ExtractData" intrvl="discrete" name="HEIGHT">
+  <location EndPos="104" StartPos="103" width="2"/>
+  <labl>Height in inches without shoes</labl>
+  <txt><![CDATA[HEIGHT reports the approximate height of sample adults and sample children ages 10-17, in inches. Prior to 2020, HEIGHT was only asked of adults. The values for this variable are based on self-reports or proxy reports/estimates by respondents for other household members, supplied in response to the question, "About how tall is [person] without shoes?"  Such data are less accurate than, and thus not fully comparable to, data on height gleaned via direct measurement in other surveys, such as NHANES (the National Health and Nutrition Examination Survey fielded by the National Center for Health Statistics). In 1974 only, the question does not specify "without shoes."
+
+According to the 2020 Survey Description, for some variables, including HEIGHT, the 2020 responses of sample adults that were part of the 2020 longitudinal sample were overwritten with their 2019 responses "to mitigate disclosure risks associated with differences in response from repeated measures among the same Sample Adults" (33). The sample adults' actual 2020 responses can be accessed through a Research Data Center (RDC). For more information on the 2020 longitudinal sample, please see SALNGPRTFLG.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58 (1996: 58 inches or less)</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>68</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>69</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>71</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>72</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>73</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>74</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>75</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>76</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>77</catValu>
+    <labl>77 (1996: 77+ inches)</labl>
+  </catgry>
+  <catgry>
+    <catValu>78</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>79</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>80</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>81</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>82</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>83</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>84</catValu>
+    <labl>84 (1976 - 1981: 84+ inches)</labl>
+  </catgry>
+  <catgry>
+    <catValu>85</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>86</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>87</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>88</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>89</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>90</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>94</catValu>
+    <labl>94+</labl>
+  </catgry>
+  <catgry>
+    <catValu>95</catValu>
+    <labl>Unknown-all causes</labl>
+  </catgry>
+  <catgry>
+    <catValu>96</catValu>
+    <labl>Exceptionally short or tall (2019-forward: or sex is unknown)</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WEIGHT" dcml="0" files="ExtractData" intrvl="contin" name="WEIGHT">
+  <location EndPos="107" StartPos="105" width="3"/>
+  <labl>Weight in pounds without shoes</labl>
+  <txt><![CDATA[WEIGHT reports the approximate weight of sample adults and sample children ages 10-17, in pounds. Prior to 2020, WEIGHT is only asked of adults. The values for this variable are based on self-reports or proxy reports/estimates by respondents for other household members, supplied in response to the question, "About how much does [person] weigh without shoes?" In 1974 only, the question does not specify "without shoes" and in 1976 and 1977 the question specifies "without clothes or shoes."  
+
+Such verbally reported data are less accurate than, and thus not fully comparable to, data on weight gleaned via direct measurement in other surveys, such as NHANES (the National Health and Nutrition Examination Survey fielded by the National Center for Health Statistics).  Indeed, the Field Representative's Manual for 1991 specified that one rationale for collecting height and weight data in the NHIS was to compare respondents' answers to the distribution of actual body measurements obtained in the Health and Nutrition Examination Survey, "to determine the reliability of self-reported or proxy-reported heights and weights."]]></txt>
+  <codInstr><![CDATA[CodesWEIGHT is a 3-digit-numeric variable. The upper and lower weight thresholds for public data suppression vary over time.  User should carefully review the codes below before making cross-year comparisons or interpreting results. 
+
+2019-forward codes
+000:	Not in Universe
+100-299: 100-299 pounds
+996:	Exceptionally low or high weight or sex is missing
+997:	Unknown-refused
+998:	Unknown-not ascertained
+999:	Unknown-don't know
+
+1997-2018 codes
+000:	Not in Universe 
+99: 	99 pounds or less (FEMALES only, 1997-2005)
+100: 	100 pounds or less (FEMALES only, 2006-2018)
+126: 	126 pounds or less (MALES only, 1997-2018)
+259: 	259 pounds or more (FEMALES only, 1997-2005)
+274: 	274 pounds or more (FEMALES only, 2006-2018)
+285: 	285 pounds or more (MALES only, 1997-2005)
+299: 	299 pounds or more (MALES only, 2006-2018)
+996:	Exceptionally low or high weight 
+997:	Unknown-refused
+998:	Unknown-not ascertained
+999:	Unknown-don't know
+
+In 1997-2018, data are NOT top and bottom coded, but instead cases outside of these upper and lower bounds are assigned to a code of "996: Exceptionally low or high weight". Additionally, these thresholds differ by sex.
+
+Pre-1997 codes:
+000:	Not in Universe (includes 2 reported "0" values in 1974, which has no bottom-code)
+50: 	50 pounds or less (1976-1995)
+97: 	97 pounds or less (1996)
+290: 	290 pounds or more (1996)
+300: 	300 pounds or more (1976 and 1978)
+400: 	400 pounds or more (1977, 1979-1981)
+500: 	500 pounds or more (1982-1995)
+997: 	997 pounds or more (1974)
+995:	Unknown - all causes]]></codInstr>
+  <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="BMICALC" dcml="1" files="ExtractData" intrvl="contin" name="BMICALC">
+  <location EndPos="111" StartPos="108" width="4"/>
+  <labl>Body Mass Index, calculated from publicly released height and weight variables</labl>
+  <txt><![CDATA[BMICALC reports the Body Mass Index, a measure of body fat based on height and weight, as calculated by IPUMS NHIS from the public use file data on height and weight.  BMICALC was calculated using the following formula: [Weight in pounds/(Height in inches, squared)] multiplied by 703 and rounded to one digit past the implied decimal point.  Individuals not asked their weight and height are coded "000" (for "Not in universe") for BMICALC.   Individuals whose weight or height was topcoded, bottomcoded, or, for 1997 forward, an outlying value that was suppressed for confidentiality reasons, receive a code of "996" for BMICALC.
+
+The website of the Centers for Disease Control and Prevention on BMI reports the following "standard weight status categories associated with BMI ranges for adults."  BMI below 18.5 is associated with "underweight" weight status; BMI 18.5 to 24.9 is associated with "normal" weight status; BMI 25.0 to 29.9 is associated with "overweight" weight status; BMI 30.0 and above is associated with "obese" weight status.  
+&nbsp;The CDC website also notes, "the correlation between the BMI number and body fatness is fairly strong; however, the correlation varies by sex, race, and age."  For example, women tend to have more body fat than men at the same BMI; older people, on average, tend to have more body fat than young adults; and highly trained athletes may have a high BMI because of increased muscularity rather than increased body fatness.  The CDC adds, "It is important to remember that BMI is only one factor related to risk for disease," and that other predictors, such as waist circumference and levels of blood pressure and physical activity, are also important.]]></txt>
+  <codInstr><![CDATA[CodesBMICALC is a 4-digit numeric variable with one implied decimal place. That is, a value of 0123 should be interpreted as 12.3 The command files delivered with IPUMS extracts automatically divide BMICALC by 10, so no further adjustment is needed.
+
+0.0 = NIU
+996.0 = Not calculable]]></codInstr>
+  <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="BMICAT" dcml="0" files="ExtractData" intrvl="discrete" name="BMICAT">
+  <location EndPos="112" StartPos="112" width="1"/>
+  <labl>Categorical body mass index</labl>
+  <txt><![CDATA[For sample adults and sample children ages 10-17, BMICAT reports their Body Mass Index grouped into categories: underweight (BMI less than 18.5), normal weight (BMI of greater than or equal to 18.5 and less than 25), overweight (BMI of greater than or equal to 25 and less than 30), and obese (BMI equal to 30 or more). Prior to 2020, BMICAT is only asked of adults. For 1991, 1993, 1995, and 1997-2018, IPUMS NHIS staff recoded the values of BMI to create BMICAT. Beginning in 2019, BMI was no longer made available by NCHS on the original NHIS files and BMICAT replaced BMI. For information about comparability between 2018 and earlier years, please refer to the comparability tab on BMI.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Underweight (BMI &lt; 18.5)</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Normal weight (BMI &gt;= 18.5 &amp; BMI &lt; 25)</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Overweight (BMI &gt;= 25  &amp; BMI &lt; 30)</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Obese (BMI 30+)</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="DELAYCOST" dcml="0" files="ExtractData" intrvl="discrete" name="DELAYCOST">
+  <location EndPos="113" StartPos="113" width="1"/>
+  <labl>Medical care delayed due to cost, past 12 months</labl>
+  <txt><![CDATA[For sample adults and sample children, DELAYCOST indicates whether, during the past twelve months, individuals delayed seeking medical care because of worry about the cost. In 1993, DELAYCOST was asked of all persons in quarters 3 and 4 and in 1994-2018 it was asked of all persons. For 1997-2018, respondents were explicitly told not to include dental care when answering this question. Beginning in 2019, respondents were not told to exclude dental care when answering this question, but they were also asked whether, during the past 12 months, they had delayed getting dental care due to the cost (DELAYDT). 
+
+ The Field Representative's Manual for 1993 forward noted, "Delayed assumes that medical care has been or will eventually be received."  This definition of the term was not routinely shared with respondents.
+
+Related Variables&nbsp;Several other variables available for 1997 forward address reasons other than "worry about the cost" that caused sample adults and sample children to delay getting medical care.  The non-financial reasons for delays in getting medical care identified in these variables are: "you couldn't get an appointment soon enough" (DELAYAPPT); "the clinic/doctor's office wasn't open when you could get there" (DELAYHRS); "you couldn't get through on the telephone" (DELAYPHONE); "you didn't have transportation" (DELAYTRANS); and "once you get there, you have to wait too long to see the doctor" (DELAYWAIT). 
+
+Available for 1997 forward, YBARCARE, which identifies individuals who needed but did not get medical care because they could not afford it during the past 12 months, covers some of the same ground as DELAYCOST.  However, the wording of the question for YBARCARE implies that medical care was foregone for financial reasons, while the wording of the question for DELAYCOST refers to care delayed for financial reasons.  The difference in these two variables may, however, be less than is implied by this semantic distinction.  In the case of some acute illnesses (such as respiratory infections and "stomach flu"), medical care that was delayed was doubtless ultimately foregone in many cases.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know (1993-96: DK or refused)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Access to Care Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="MHRX" dcml="0" files="ExtractData" intrvl="discrete" name="MHRX">
+  <location EndPos="114" StartPos="114" width="1"/>
+  <labl>Took medication for emotions/concentration/behavior, past 12 months</labl>
+  <txt><![CDATA[For sample adults who have not taken medication for worry or don't know or refused to say if they have (WORRX) AND who have not taken medication for depression or don't know or refused to say if they have (DEPRX) and sample children between the ages of 2 and 17, MHRX reports if they took prescription medication to help with emotions, concentration, behavior, or mental health in the past 12 months. For sample adults, MHRX refers to prescription medications taken to help with emotions, concentration, behavior, or mental health other than worry or depression. For sample children, MHRX refers to prescription medications to help with emotions, concentration, behavior, or mental health including worry or depression.
+
+MHRX is one of a set of variables covering mental health care. Other mental health care variables include:
+
+SAWMENT: Saw/talked to mental health professional, past 12 months
+
+DPCOUNSEL: Now sees a counselor, psychiatrist, psychologist, or social worker regularly
+
+YDELAYMENTAL: Delayed getting mental health counseling or therapy due to cost, past 12 months
+
+YBARMENTAL: Needed but couldn't afford mental health care, past 12 months
+]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-Refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-Not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-Don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Access to Care Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="YDELAYMENTAL" dcml="0" files="ExtractData" intrvl="discrete" name="YDELAYMENTAL">
+  <location EndPos="115" StartPos="115" width="1"/>
+  <labl>Delayed getting mental health counseling or therapy due to cost, past 12 months</labl>
+  <txt><![CDATA[For sample children aged 2 to 17 and sample adults aged 18 and older, YDELAYMENTAL indicates whether, in the past 12 months, they delayed getting counseling or therapy from a mental health professional due to the cost. In a prior question, respondents were given several examples of mental health professionals, including psychiatrists, psychologists, psychiatric nurses, and clinical social workers.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Access to Care Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HIPROBPAYR" dcml="0" files="ExtractData" intrvl="discrete" name="HIPROBPAYR">
+  <location EndPos="116" StartPos="116" width="1"/>
+  <labl>Problems paying or unable to pay medical bills, past 12 months</labl>
+  <txt><![CDATA[For sample adults and sample children (and, prior to 2019, all persons), HIPROBPAYR reports if the family had problems paying or were unable to pay any medical bills in the past 12 months.  This included bills for doctors, dentists, hospitals, therapists, medication, equipment, nursing home or home care.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Access to Care Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PREMEDYR" dcml="0" files="ExtractData" intrvl="discrete" name="PREMEDYR">
+  <location EndPos="117" StartPos="117" width="1"/>
+  <labl>Used prescription medication, past 12 months</labl>
+  <txt><![CDATA[For sample adults and sample children, PREMEDYR reports whether the respondent used prescription medications in the past 12 months. In 2002, PREMEDYR was only asked of sample adults.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Medication Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ADDEV" dcml="0" files="ExtractData" intrvl="discrete" name="ADDEV">
+  <location EndPos="118" StartPos="118" width="1"/>
+  <labl>Ever told had ADHD/ADD</labl>
+  <txt><![CDATA[ADDEV identifies those sample children age 2 to 17 (and, in 2007, sample adults age 18+) whom a doctor or health professional had diagnosed as having "Attention Deficit Disorder [ADD]" [for 1997-99] or "Attention Deficit Hyperactivity Disorder [ADHD] or Attention Deficit Disorder [ADD]" [for 2000 forward].   
+
+The Field Representative's Manual includes definitions of these neurobehavioral disorders, but this information was not routinely shared with respondents.  The Manual for 1997 states that ADD "is diagnosed by a mental health professional and is characterized by developmentally inappropriate inattention, impulsiveness, and varying hyperactivity."  The Manual for 1998-1999 reports that ADD "is diagnosed by an education or health professional and is characterized by developmentally inappropriate inattention and impulsiveness."  The Manual for 2000 and subsequent years states that Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder "is diagnosed by a health professional and is characterized by problems with attention, impulsiveness, hyperactivity, school problems, and sometimes aggression."]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ADHDNOW" dcml="0" files="ExtractData" intrvl="discrete" name="ADHDNOW">
+  <location EndPos="119" StartPos="119" width="1"/>
+  <labl>Currently has ADHD or ADD</labl>
+  <txt><![CDATA[For sample children ages 2 to 17 with an Attention-Deficit/Hyperactivity Disorder (ADHD) or Attention-Deficit (ADD) diagnosis (ADDEV), ADHDNOW indicates whether the child currently has ADHD or ADD.
+
+For more information on the changes to the NHIS definitions of ADHD and ADD over time, please see ADDEV.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown - refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown - not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown - don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CANCEREV" dcml="0" files="ExtractData" intrvl="discrete" name="CANCEREV">
+  <location EndPos="120" StartPos="120" width="1"/>
+  <labl>Ever told had cancer</labl>
+  <txt><![CDATA[CANCEREV identifies sample adults/persons who were ever diagnosed by a doctor or other health professional as having cancer. The Field Representative's Manuals for 1997-2000 directed the interviewer, "Do NOT include self-diagnosed conditions or conditions reported by a person who is not a doctor and not working with or for a doctor."  
+
+The Manual for 2005 defined cancer as "diseases in which abnormal cells divide without control.  Cancer cells can invade nearby tissue and can spread through the bloodstream and lymphatic system to other parts of the body."  This definition, which was not routinely shared with respondents, was taken from the Healthy People 2010 Objectives, a comprehensive set of national health goals for the decade, which are coordinated by the Office of Disease Prevention and Health Promotion of the U.S. Department of Health and Human Services.
+
+Available in 2007, CANCERYR identifies sample children who were diagnosed by a doctor or other health professional as having cancer during the past 12 months.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CHOLHIGHEV" dcml="0" files="ExtractData" intrvl="discrete" name="CHOLHIGHEV">
+  <location EndPos="121" StartPos="121" width="1"/>
+  <labl>Ever told had high cholesterol</labl>
+  <txt><![CDATA[CHOLHIGHEV identifies sample adults who were ever told by a doctor or other health professional that they have high cholesterol. Please see Comparability and Universe tabs for information on changes in the wording and universe between samples.
+
+One of the national health objectives of Healthy People 2010 is to increase to 80 percent the proportion of people age 20 and over who have been screened for high blood cholesterol in the preceding 5 years.  According to the 2003 Field Representative's Manual, the questions on blood cholesterol in that year's survey derived from the Healthy People 2010 Objectives.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CHOLHIGHYR" dcml="0" files="ExtractData" intrvl="discrete" name="CHOLHIGHYR">
+  <location EndPos="122" StartPos="122" width="1"/>
+  <labl>Had high cholesterol, past 12 months</labl>
+  <txt><![CDATA[For sample adults, and sample children ages 6-17 in 2012, CHOLHIGHYR indicates whether the person had high cholesterol during the past 12 months. In all years except for 2013, this question was asked only of those who were ever told they have high cholesterol (CHOLHIGHEV). Please see Comparability and Universe tabs for changes in the universe between samples.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="DEPRESSEV" dcml="0" files="ExtractData" intrvl="discrete" name="DEPRESSEV">
+  <location EndPos="123" StartPos="123" width="1"/>
+  <labl>Ever had depression</labl>
+  <txt><![CDATA[For sample adults age 18 and over, DEPRESSEV reports if respondents ever had depression. Beginning in 2019, if necessary, interviewers told respondents, "Some common types of depression include major depression (or major depressive disorder), bipolar depression, dysthymia, post-partum depression, and seasonal affective disorder." 
+
+The 2019 Field Representative's Manual defines depression (major depressive disorder or clinical depression) as "a common but serious mood disorder. It causes severe symptoms that affect how you feel, think, and handle daily activities, such as sleeping, eating, or working."]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="LEARNDEV" dcml="0" files="ExtractData" intrvl="discrete" name="LEARNDEV">
+  <location EndPos="124" StartPos="124" width="1"/>
+  <labl>Ever told had a learning disability</labl>
+  <txt><![CDATA[LEARNDEV reports whether the person has a learning disability. Please see Comparability and Universe tabs for changes in universe and question wording between samples.
+&nbsp;In 1994 and 1995, this variable is part of the Disability Supplement (NHIS-D) that collects information on disability. NHIS-D included two household interviews: in Phase I all members of sample families were screened for any indication of disability; in Phase II persons with any indication of disability were followed-up for additional information. Phase I includes sensory, communication, and mobility problems; health conditions; activities of daily living and independent activities of daily living; functional limitations; mental health; services and benefits; special health needs of children; early child development; education; relationship to respondent; and perceived disability. Phase II includes four Disability Followback Survey (DFS) questionnaires: one for children, one for adults, one for elderly persons (69 years of age and over) without any indication of disability (also called the Supplement on Aging or SOA; only in 1994), and one for persons with a history of polio.
+
+Children "who have difficulty learning as a result of visual, hearing, motor, mental retardation, or emotional disturbance" may have also received a positive response for one of the following four variables: ADDEV (Ever told had attention deficit disorder/attention deficit hyperactivity disorder); RETEV (Ever told have intellectual disability); or ODDEV (Ever told have other developmental delay); and AUTISMEV (Ever told have autism).]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="STROKEV" dcml="0" files="ExtractData" intrvl="discrete" name="STROKEV">
+  <location EndPos="125" StartPos="125" width="1"/>
+  <labl>Ever told had a stroke</labl>
+  <txt><![CDATA[STROKEV identifies adults whom a doctor or other health professional ever diagnosed as having had a stroke.  In 2002 and 2007, persons who had ever been diagnosed with a stroke were asked whether they had a stroke during the past 12 months (STROKEYR). Please see Comparability and Universe tabs for complete information on universe changes between samples.
+
+The Field Representative's Manual for 1997-2000 directed interviewers to "include strokes, cerebrovascular accidents, and brain hemorrhages," but this directive was not stated during the interview.  Stroke was defined in the Field Representative's Manual for 2001 forward as "a cerebral hemorrhage or embolism of the cerebral blood vessels," but this definition was not routinely shared with respondents.
+
+Related Variables&nbsp;Information on whether persons age 20 and older ever had a stroke is also available in 1977 (STROKEWOC).  The information included in STROKEWOC was collected via two separate lines of questioning.  Interviewers asked, "Has [name] ever had a stroke?" and "Has a doctor ever told [name] he had a stroke?"  In addition, the person was recorded as having had a stroke and asked about a doctor's diagnosis of the condition if "stroke" was reported as the reason why an individual was limited in daily activities (i.e., "needs the help of another person in getting around," "stays in bed all or most of the day," "needs help in bathing/dressing/eating/using the toilet"). 
+
+Only cases coded as "2" (Yes, medically confirmed) in STROKEWOC are roughly comparable to cases with an affirmative response in STROKEV.   Along with the notable difference in question wording for the two variables, there is a difference in the range of responses that were accepted.  In the 1977 inquiry, interviewers were directed to reask the question if a term other than "stroke" (such as "brain hemorrhage") was reported, and to consider as a "No" response any term other than "stroke."  By contrast, as noted above, for STROKEV, other terms such as "cerebral hemorrhage" and "cerebrovascular accident" were accepted as "Yes" responses.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Condition Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ALC5UPEVYR" dcml="0" files="ExtractData" intrvl="discrete" name="ALC5UPEVYR">
+  <location EndPos="126" StartPos="126" width="1"/>
+  <labl>Ever had 5+ drinks in a day, past year</labl>
+  <txt><![CDATA[For sample adults who drank less than 4 (women) or 5 (men or those who refused to say or don't know their sex) alcoholic drinks per day on average (ALCAMT), ALC5UPEVYR reports whether, during the past 12 months, they ever had 4 or more (women) or 5 or more (men) alcoholic drinks in a day.  
+
+Beginning in 2020, ALC5UPEVYR is collected as part of the rotating core of NHIS alcohol use questions, fielded every other year. For more information about the NHIS alcohol use rotating core, please see ALCDRINKEV.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Alcohol Consumption Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ALC5UPOCC30D" dcml="0" files="ExtractData" intrvl="discrete" name="ALC5UPOCC30D">
+  <location EndPos="128" StartPos="127" width="2"/>
+  <labl>Occasions had 5+ drinks in a row, past 30 days</labl>
+  <txt><![CDATA[For sample adults who drank in the past 30 days or refused to say or don't know if they drank in the past 30 days (ALCEV30D), ALC5UPOCC30D reports the number of occasions, in the past 30 days, where they had five or more alcoholic beverages in a row (for men) or four or more alcoholic beverages in a row (for women). If necessary, interviewers read the additional clarification out loud, "A drinking occasion is considered to be approximately two hours."
+
+Beginning in 2020, ALC5UPOCC30D is collected as part of the rotating core of NHIS alcohol use questions, fielded every other year. For more information about the NHIS alcohol use rotating core, please see ALCDRINKEV.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1 occasion</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60 occasions</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Alcohol Consumption Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ALCSTAT1" dcml="0" files="ExtractData" intrvl="discrete" name="ALCSTAT1">
+  <location EndPos="129" StartPos="129" width="1"/>
+  <labl>Alcohol drinking status: Recode</labl>
+  <txt><![CDATA[For sample adults, ALCSTAT2 recodes responses to other alcohol variables (e.g., ALCDRINKEV, ALCANYNO) to create a classification of their lifetime alcohol drinking status.  
+
+In 2018 and earlier years, ALCSTAT1 summarizes the responses to the direct question, "In your entire life, have you had at least 12 drinks of any type of alcoholic beverage?"
+
+The Field Representative's Manual defines alcohol to "include as alcohol all types of beer (including stout, ale, malt liquor, or light beer, but does not include alcohol-free beer), wine (including port, sherry, sangria wine coolers, and champagne), and liquor (including brandy, liqueurs, scotch, whiskeys, tequila and gin)."
+
+Beginning in 2020, ALCSTAT1 is collected as part of the rotating core of NHIS alcohol use questions, fielded every other year. For more information about the NHIS alcohol use rotating core, please see ALCDRINKEV.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Lifetime abstainer (lt 12 drinks in life)</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Former drinker (no drinks past year)</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Current drinker (1+ drinks past year)</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Drinking status unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Alcohol Consumption Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PA18AERSTR" dcml="0" files="ExtractData" intrvl="discrete" name="PA18AERSTR">
+  <location EndPos="130" StartPos="130" width="1"/>
+  <labl>Physical activity met 2018 guidelines for aerobic and/or strengthening activity</labl>
+  <txt><![CDATA[For sample adults, PA18AERSTR reports whether their reported physical activity met the strength and/or aerobic criteria of the 2018 Health and Human Services Physical Activity Guidelines. According to the 2020 Survey Description, the Guidelines "recommend that adults complete at least 150 minutes to 300 minutes of moderate-intensity activity, or 75 minutes to 150 minutes of vigorous-intensity aerobic activity per week, as well as moderate or greater intensity muscle strengthening activities on two or more days a week." This information is reported in MOD10DMIN, VIG10DMIN, and STRONGFWK.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Meets neither criteria</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Meets strengthening criteria only</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Meets aerobic criteria only</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Meets both criteria</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Physical Activity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HRSLEEP" dcml="0" files="ExtractData" intrvl="discrete" name="HRSLEEP">
+  <location EndPos="132" StartPos="131" width="2"/>
+  <labl>Usual hours sleep per day</labl>
+  <txt><![CDATA[For sample adults, HRSLEEP reports how many hours, on average, the respondent sleeps per day. For surveys prior to 2004, interviewers were instructed to write down responses verbatim.  From 2004 forward, interviewers were instructed to report the hours of sleep in whole numbers, rounding values of 30 minutes or more UP to the nearest hour or otherwise rounding down. IPUMS NHIS recodes the values from the earlier surveys into whole number values, following the same rules as 2004 forward.
+
+Beginning in 2020, HRSLEEP is one of a set of rotating core variables on sleep duration and quality collected by the NHIS every other year. In addition to HRSLEEP, other variables in the sleep rotating core include:
+
+Sample Adults
+SLEEPRESTFRQ: How often woke up feeling well rested, past 30 days
+
+SLEEPFALLFRQ: How often had trouble falling asleep, past 30 days
+
+SLEEPSTAYFRQ: How often had trouble staying asleep, past 30 days
+
+SLEEPMEDFRQ: How often took medication for sleep, past 30 days
+Sample Children
+CSLEEPREST: How often wake up feeling well rested in a typical school week
+
+CSLEEPGETUP: How often difficult to get out of bed in the morning in a typical school week
+
+CSLEEPTIRED: How often complain of being tired during the day in a typical school week
+
+CSLEEPNAPS: How often nap or fall asleep during the day in a typical school week
+
+CSLEEPBEDTIME: How often have a regular bedtime on school nights in a typical school week
+
+CSLEEPWKTIME: How often wake up at same time in a typical school week
+Related Variables on Sleep&nbsp;A set of questions on sleep were asked annually of sample adults in 2004-2018 that are similar to those asked beginning in 2020 but differ in the reference period (past week vs. past 30 days) and the structure of the response categories (number of days in past week vs. how often in the past 30 days). These variables include:
+
+SLEEPREST: Days woke up feeling rested, past week
+
+SLEEPFALL: Number of times having trouble falling asleep, past week
+
+SLEEPSTAY: Number of times having trouble staying asleep, past week
+
+SLEEPMEDS: Number of times taking medication for sleep, past week
+]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1 hour (1990: 0 or 1 hour)</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>Less than 1 hour</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Sleep Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SLEEPRESTFRQ" dcml="0" files="ExtractData" intrvl="discrete" name="SLEEPRESTFRQ">
+  <location EndPos="133" StartPos="133" width="1"/>
+  <labl>How often woke up feeling well rested, past 30 days</labl>
+  <txt><![CDATA[For sample adults, SLEEPRESTFRQ reports how often they woke up feeling well rested in the past 30 days.
+
+SLEEPRESTFRQ is part of the NHIS rotating core questions on sleep introduced in 2020 and collected every other year. For related variables and more information about NHIS variables on sleep, please see HRSLEEP.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Never</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some days</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Most days</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Every day</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Sleep Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SLEEPFALLFRQ" dcml="0" files="ExtractData" intrvl="discrete" name="SLEEPFALLFRQ">
+  <location EndPos="134" StartPos="134" width="1"/>
+  <labl>How often had trouble falling asleep, past 30 days</labl>
+  <txt><![CDATA[For sample adults, SLEEPFALLFRQ reports how often they had trouble falling asleep in the past 30 days.
+
+SLEEPFALLFRQ is part of the NHIS rotating core questions on sleep introduced in 2020 and collected every other year. For related variables and more information about NHIS variables on sleep, please see HRSLEEP.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Never</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some days</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Most days</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Every day</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Sleep Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SLEEPSTAYFRQ" dcml="0" files="ExtractData" intrvl="discrete" name="SLEEPSTAYFRQ">
+  <location EndPos="135" StartPos="135" width="1"/>
+  <labl>How often had trouble staying asleep, past 30 days</labl>
+  <txt><![CDATA[For sample adults, SLEEPSTAYFRQ reports how often they had trouble staying asleep in the past 30 days.
+
+SLEEPSTAYFRQ is part of the NHIS rotating core questions on sleep introduced in 2020 and collected every other year. For related variables and more information about NHIS variables on sleep, please see HRSLEEP.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Never</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some days</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Most days</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Every day</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Sleep Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SLEEPMEDFRQ" dcml="0" files="ExtractData" intrvl="discrete" name="SLEEPMEDFRQ">
+  <location EndPos="136" StartPos="136" width="1"/>
+  <labl>How often took medication for sleep, past 30 days</labl>
+  <txt><![CDATA[For sample adults, SLEEPMEDFRQ reports how often they took medication, including both prescribed and over-the-counter, for sleep in the past 30 days.
+
+SLEEPMEDFRQ is part of the NHIS rotating core questions on sleep introduced in 2020 and collected every other year. For related variables and more information about NHIS variables on sleep, please see HRSLEEP.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Never</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some days</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Most days</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Every day</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Sleep Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="DSOCIALP" dcml="0" files="ExtractData" intrvl="discrete" name="DSOCIALP">
+  <location EndPos="137" StartPos="137" width="1"/>
+  <labl>Amount of difficulty participating in social activities</labl>
+  <txt><![CDATA[For sample adults, DSOCIALP reports, due to a physical, mental, or emotional condition, how much difficulty they had participating in social activities such as visiting friends, attending clubs and meetings, or going to parties. 
+
+DSOCIALP is one of three functional limitation variables that the NHIS collects but are not part of the Washington Group measures on disability. (See our user note on the Washington Group Disability Measures.) The three measures asked in addition to the Washington Group measures capture limitations in participation in everyday life activities by determining difficulties experienced by sample adults participating in work (LAMTWRK), running errands alone (DISERRANDP), and participating in social activities (DSOCIALP) due to a physical, mental, or emotional condition.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Limitation Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WORFREQ" dcml="0" files="ExtractData" intrvl="discrete" name="WORFREQ">
+  <location EndPos="138" StartPos="138" width="1"/>
+  <labl>How often feel worried, nervous, or anxious</labl>
+  <txt><![CDATA[For sample children ages 5-17 and sample adults, WORFREQ reports how often they felt worried, nervous or anxious. Prior to 2019, WORFREQ was not asked of sample children.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Daily</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Weekly</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Monthly</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>A few times a year</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Never</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Anxiety Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WORRX" dcml="0" files="ExtractData" intrvl="discrete" name="WORRX">
+  <location EndPos="139" StartPos="139" width="1"/>
+  <labl>Take medication for worried, nervous, or anxious feelings</labl>
+  <txt><![CDATA[Respondents reported whether they took medication for feelings of worry, nervousness, or anxiety.
+
+In 2010, this item was collected for sample adults who completed the Quality of Life supplement (administered to approximately a quarter of sample adults). In 2011-2017, this item was collected for sample adults who completed the Adult Functioning and Disability supplement (administered to a subset of sample adults). Beginning in 2018, this item was included on the sample adult questionnaire.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Anxiety Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WORFEELEVL" dcml="0" files="ExtractData" intrvl="discrete" name="WORFEELEVL">
+  <location EndPos="140" StartPos="140" width="1"/>
+  <labl>Level of worried, nervous, or anxious feelings, last time</labl>
+  <txt><![CDATA[Respondents reported the level of their feelings of worry, nervousness, or anxiety. This question was only asked of respondents who reported feeling worried, nervous, or anxious (WORFREQ) or who took medication for those feelings (WORRX).
+
+In 2010, this item was collected for sample adults who completed the Quality of Life supplement (administered to approximately a quarter of sample adults). In 2011-2017, this item was collected for sample adults who completed the Adult Functioning and Disability supplement (administered to a subset of sample adults). Beginning in 2018, this item was included on the sample adult questionnaire.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>A lot</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>A little</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Somewhere between a little and a lot</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Anxiety Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="GADANX" dcml="0" files="ExtractData" intrvl="discrete" name="GADANX">
+  <location EndPos="141" StartPos="141" width="1"/>
+  <labl>Feel anxious or nervous: past two weeks</labl>
+  <txt><![CDATA[For sample adults, GADANX reports responses to the question, "Over the last two weeks, how often have you been bothered by feeling nervous, anxious, or on edge?"
+
+Generalized Anxiety Disorder (GAD) Scale&nbsp;GADANX is part of the Generalized Anxiety Disorder scale which can be used to screen and assess the severity of generalized anxiety disorder. The GAD also has moderate sensitivity when screening for panic disorder, social anxiety disorder, and post-traumatic stress disorder. Additional GAD questions that are included as part of the NHIS are:
+
+Over the last two weeks, how often have you been bothered by...
+
+not being able to stop or control worrying? (GADWORCTRL)
+
+worrying too much about different things? (GADWORMUCH)
+
+trouble relaxing? (GADRELAX)
+
+being so restless that it's hard to sit still? (GADRSTLS)
+
+becoming easily annoyed or irritable? (GADANNOY)
+
+feeling afraid as if something awful might happen? (GADFEAR)
+The NHIS offers a categorical summary measure, GADCAT, that is based on the summed responses to the above GAD variables. Users can also sum these variables themselves to create a total score that can be used for analysis and assessing severity of symptoms. For more information on how to calculate the total score for the GAD, please see GADCAT.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>Not at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Several days</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>More than half the days</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Nearly every day</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Anxiety Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="DEPFREQ" dcml="0" files="ExtractData" intrvl="discrete" name="DEPFREQ">
+  <location EndPos="142" StartPos="142" width="1"/>
+  <labl>How often feel depressed</labl>
+  <txt><![CDATA[For sample children ages 5-17 and sample adults, DEPFREQ reports how often they felt depressed. Prior to 2019, DEPFREQ was not asked of sample children.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Daily</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Weekly</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Monthly</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>A few times a year</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Never</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Depression Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="DEPRX" dcml="0" files="ExtractData" intrvl="discrete" name="DEPRX">
+  <location EndPos="143" StartPos="143" width="1"/>
+  <labl>Take medication for depression</labl>
+  <txt><![CDATA[Respondents reported whether they took medication for depression.
+
+In 2010, this item was collected for sample adults who completed the Quality of Life supplement (administered to approximately a quarter of sample adults). In 2011-2017, this item was collected for sample adults who completed the Adult Functioning and Disability supplement (administered to a subset of sample adults). Beginning in 2018, this item was included on the sample adult questionnaire.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Depression Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="DEPFEELEVL" dcml="0" files="ExtractData" intrvl="discrete" name="DEPFEELEVL">
+  <location EndPos="144" StartPos="144" width="1"/>
+  <labl>Level of depression, last time depressed</labl>
+  <txt><![CDATA[Respondents reported whether their level of depression, the last time they felt depressed, was "a little," "a lot," or "somewhere in between a little and a lot." This question was only asked of respondents who reported feeling depressed (DEPFREQ) or who acknowledged taking medication for depression (DEPRX).
+
+In 2010, this item was collected for sample adults who completed the Quality of Life supplement (administered to approximately a quarter of sample adults). In 2011-2017, this item was collected for sample adults who completed the Adult Functioning and Disability supplement (administered to a subset of sample adults). Beginning in 2018, this item was included on the sample adult questionnaire.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>A little</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>A lot</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Somewhere between little and lot</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Depression Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CVDDIAG" dcml="0" files="ExtractData" intrvl="discrete" name="CVDDIAG">
+  <location EndPos="145" StartPos="145" width="1"/>
+  <labl>Ever told had or likely had coronavirus/COVID-19</labl>
+  <txt><![CDATA[For sample children and sample adults, CVDDIAG indicates if they have ever been told by a doctor or other health professional that they had or likely had coronavirus or COVID-19.
+
+NCHS added nearly 30 questions related to COVID starting in quarter 3 of the 2020 NHIS questionnaire, eight of which are asked of both sample adults and sample children. For the full list of variables, as well as information about COVID-related changes to the NHIS, please see the user note.
+
+Analysts will need to adjust the sampling weights to account for the limited collection period and sample changes in 2020. For an example of how to do this, including sample code, please see the sampling weight adjustment section of the Variance Estimation User Note.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">COVID-19 Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CVDTESTRSLT" dcml="0" files="ExtractData" intrvl="discrete" name="CVDTESTRSLT">
+  <location EndPos="146" StartPos="146" width="1"/>
+  <labl>Had coronavirus/COVID-19, according to test</labl>
+  <txt><![CDATA[CVDTESTRSLT indicates if a respondent has had test results indicating they had coronavirus or COVID-19.
+
+NCHS added nearly 30 questions related to COVID starting in quarter 3 of the 2020 NHIS questionnaire, eight of which are asked of both sample adults and sample children. For the full list of variables, as well as information about COVID-related changes to the NHIS, please see the user note.
+
+Analysts will need to adjust the sampling weights to account for the limited collection period and sample changes in 2020. For an example of how to do this, including sample code, please see the sampling weight adjustment section of the Variance Estimation User Note.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Did not receive results</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">COVID-19 Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CVDSYMP" dcml="0" files="ExtractData" intrvl="discrete" name="CVDSYMP">
+  <location EndPos="147" StartPos="147" width="1"/>
+  <labl>Severity of coronavirus/COVID-19 symptoms at their worst</labl>
+  <txt><![CDATA[For sample children and sample adults who have been told by a doctor or other health professional that they had or likely had coronavirus (CVDDIAG) or tested positive for COVID-19 (CVDTESTRSLT), CVDSYMP describes their coronavirus symptoms when they were at their worst. 
+
+NCHS added nearly 30 questions related to COVID starting in quarter 3 of the 2020 NHIS questionnaire, eight of which are asked of both sample adults and sample children. For the full list of variables, as well as information about COVID-related changes to the NHIS, please see the user note.
+
+Analysts will need to adjust the sampling weights to account for the limited collection period and sample changes in 2020. For an example of how to do this, including sample code, please see the sampling weight adjustment section of the Variance Estimation User Note.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No symptoms</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Mild symptoms</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Moderate symptoms</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Severe symptoms</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Unknown-refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown-not ascertained</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown-don't know</labl>
+  </catgry>
+  <concept vocab="IPUMS">COVID-19 Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+</dataDscr>
+</codeBook>
