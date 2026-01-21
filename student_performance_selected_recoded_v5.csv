@@ -1,0 +1,396 @@
+studytime,absences,mother_education,father_education,family_relationship,free_time,activities,going_out,romantic,higher,grade_period_1,grade_period_2,final_grade
+2–5 hours,6,higher education,higher education,good,moderate,no,high,no,yes,F,F,F
+2–5 hours,4,primary education only,primary education only,excellent,moderate,no,moderate,no,yes,F,F,F
+2–5 hours,10,primary education only,primary education only,good,moderate,no,low,no,yes,F,F,D
+5–10 hours,2,higher education,5th–9th grade,average,low,yes,low,yes,yes,B,B,B
+2–5 hours,4,high school,high school,good,moderate,no,low,no,yes,F,D,D
+2–5 hours,10,higher education,high school,excellent,high,yes,low,no,yes,B,B,B
+2–5 hours,0,5th–9th grade,5th–9th grade,good,high,no,high,no,yes,C,C,D
+2–5 hours,6,higher education,higher education,good,very low,no,high,no,yes,F,F,F
+2–5 hours,0,high school,5th–9th grade,good,low,no,low,no,yes,A,A,A
+2–5 hours,0,high school,higher education,excellent,very high,yes,very low,no,yes,B,B,B
+2–5 hours,0,higher education,higher education,average,moderate,no,moderate,no,yes,D,F,F
+5–10 hours,4,5th–9th grade,primary education only,excellent,low,yes,low,no,yes,D,C,C
+< 2 hours,2,higher education,higher education,good,moderate,yes,moderate,no,yes,B,B,B
+2–5 hours,2,higher education,high school,excellent,high,no,moderate,no,yes,D,D,D
+5–10 hours,0,5th–9th grade,5th–9th grade,good,very high,no,low,yes,yes,B,A,A
+< 2 hours,4,higher education,higher education,good,high,no,high,no,yes,B,B,B
+5–10 hours,6,higher education,higher education,average,low,yes,moderate,no,yes,C,B,B
+2–5 hours,4,high school,high school,excellent,moderate,yes,low,no,yes,F,D,D
+< 2 hours,16,high school,5th–9th grade,excellent,very high,yes,very high,no,yes,F,F,F
+< 2 hours,4,higher education,high school,average,very low,yes,moderate,no,yes,F,D,D
+2–5 hours,0,higher education,high school,good,high,no,very low,no,yes,C,B,B
+< 2 hours,0,higher education,higher education,excellent,high,no,low,no,yes,C,B,B
+2–5 hours,2,higher education,5th–9th grade,good,very high,yes,very low,no,yes,B,B,A
+2–5 hours,0,5th–9th grade,5th–9th grade,excellent,high,yes,high,no,yes,C,C,C
+5–10 hours,2,5th–9th grade,higher education,good,moderate,yes,low,no,yes,D,F,F
+< 2 hours,14,5th–9th grade,5th–9th grade,very poor,low,no,low,no,yes,F,F,F
+< 2 hours,2,5th–9th grade,5th–9th grade,good,low,no,low,no,yes,C,C,D
+< 2 hours,4,higher education,5th–9th grade,poor,low,no,high,no,yes,B,A,B
+2–5 hours,4,high school,higher education,excellent,moderate,yes,moderate,no,yes,D,D,D
+2–5 hours,16,higher education,higher education,good,high,yes,very high,yes,yes,D,C,D
+2–5 hours,0,higher education,higher education,excellent,high,no,low,no,yes,F,D,C
+2–5 hours,0,higher education,higher education,good,moderate,yes,very low,no,yes,A,A,A
+2–5 hours,0,higher education,high school,good,very high,yes,low,yes,yes,A,A,A
+2–5 hours,0,high school,high school,excellent,moderate,yes,low,no,yes,F,D,C
+< 2 hours,0,high school,5th–9th grade,excellent,high,no,moderate,no,yes,C,B,B
+< 2 hours,0,5th–9th grade,high school,average,very high,yes,very low,no,yes,F,F,F
+5–10 hours,2,higher education,high school,excellent,high,yes,moderate,no,yes,B,A,A
+5–10 hours,7,higher education,higher education,poor,high,yes,moderate,yes,yes,B,A,B
+5–10 hours,2,high school,higher education,good,moderate,yes,low,no,yes,C,C,D
+< 2 hours,8,5th–9th grade,5th–9th grade,good,moderate,yes,very low,no,yes,B,C,C
+2–5 hours,25,5th–9th grade,5th–9th grade,average,moderate,yes,moderate,yes,yes,F,D,D
+< 2 hours,8,higher education,higher education,excellent,high,no,moderate,yes,yes,C,C,C
+2–5 hours,2,higher education,higher education,good,moderate,yes,moderate,no,yes,A,A,A
+< 2 hours,0,5th–9th grade,5th–9th grade,excellent,high,no,very low,no,yes,F,F,D
+2–5 hours,14,5th–9th grade,5th–9th grade,good,moderate,yes,moderate,no,yes,D,D,F
+2–5 hours,8,higher education,high school,excellent,low,yes,low,yes,yes,F,F,F
+2–5 hours,12,high school,high school,poor,moderate,no,very high,no,yes,D,C,D
+> 10 hours,4,higher education,high school,good,low,yes,low,no,yes,A,A,A
+2–5 hours,2,higher education,5th–9th grade,good,moderate,no,moderate,no,yes,B,B,B
+2–5 hours,2,higher education,higher education,good,high,yes,high,no,yes,F,F,F
+2–5 hours,2,5th–9th grade,5th–9th grade,good,moderate,no,moderate,no,yes,C,C,C
+2–5 hours,2,higher education,5th–9th grade,good,moderate,no,moderate,no,yes,D,C,C
+< 2 hours,6,higher education,5th–9th grade,excellent,very high,no,very high,no,yes,D,D,D
+< 2 hours,0,higher education,higher education,average,moderate,no,high,no,yes,F,D,D
+< 2 hours,6,high school,high school,excellent,moderate,no,high,no,yes,D,C,C
+2–5 hours,8,5th–9th grade,primary education only,excellent,moderate,yes,high,yes,yes,F,F,D
+2–5 hours,0,higher education,high school,good,moderate,yes,low,no,yes,B,B,B
+2–5 hours,4,higher education,higher education,average,low,yes,low,no,yes,B,B,B
+2–5 hours,2,primary education only,5th–9th grade,good,moderate,yes,low,no,yes,F,D,F
+2–5 hours,2,higher education,5th–9th grade,good,low,no,moderate,no,yes,B,A,A
+2–5 hours,6,higher education,higher education,poor,high,yes,high,no,yes,D,D,D
+< 2 hours,6,primary education only,primary education only,excellent,very high,yes,very high,yes,yes,D,F,D
+2–5 hours,4,primary education only,5th–9th grade,good,high,yes,moderate,no,yes,F,D,F
+5–10 hours,2,higher education,high school,average,high,yes,high,no,yes,D,F,F
+2–5 hours,0,higher education,high school,good,high,yes,high,yes,yes,D,D,D
+2–5 hours,2,higher education,high school,excellent,high,yes,moderate,no,yes,A,B,B
+> 10 hours,4,higher education,higher education,very poor,moderate,yes,moderate,yes,yes,C,C,C
+> 10 hours,4,high school,primary education only,good,moderate,no,moderate,no,yes,F,F,F
+2–5 hours,2,5th–9th grade,5th–9th grade,good,very low,no,moderate,no,yes,F,F,F
+> 10 hours,12,high school,primary education only,good,high,no,low,no,yes,A,A,A
+> 10 hours,0,high school,primary education only,good,moderate,no,low,no,yes,C,B,B
+> 10 hours,0,higher education,5th–9th grade,average,moderate,no,moderate,no,yes,D,D,D
+2–5 hours,2,primary education only,primary education only,average,moderate,no,high,yes,yes,F,F,F
+< 2 hours,2,high school,primary education only,excellent,moderate,yes,low,no,yes,C,C,B
+2–5 hours,54,high school,high school,good,moderate,yes,moderate,no,yes,D,C,D
+2–5 hours,6,higher education,high school,good,moderate,yes,moderate,no,yes,F,F,D
+> 10 hours,8,higher education,none,average,high,yes,moderate,no,yes,D,D,D
+> 10 hours,0,5th–9th grade,5th–9th grade,excellent,low,no,moderate,yes,yes,D,D,D
+< 2 hours,2,5th–9th grade,primary education only,good,very high,yes,very low,no,no,F,F,D
+2–5 hours,12,high school,higher education,poor,high,no,moderate,no,yes,F,F,F
+< 2 hours,2,5th–9th grade,high school,average,low,yes,low,yes,yes,D,C,C
+5–10 hours,4,5th–9th grade,high school,excellent,moderate,no,low,no,yes,D,D,D
+2–5 hours,10,high school,5th–9th grade,good,high,no,high,no,yes,F,F,F
+2–5 hours,4,5th–9th grade,5th–9th grade,excellent,moderate,yes,moderate,no,yes,B,B,B
+2–5 hours,2,primary education only,primary education only,good,moderate,yes,low,no,yes,F,D,D
+2–5 hours,6,higher education,higher education,good,high,no,high,yes,yes,F,F,F
+2–5 hours,4,5th–9th grade,5th–9th grade,good,moderate,no,high,no,yes,F,F,F
+5–10 hours,4,higher education,5th–9th grade,excellent,moderate,yes,moderate,no,yes,C,B,B
+2–5 hours,12,5th–9th grade,5th–9th grade,good,high,yes,low,no,yes,D,D,D
+2–5 hours,18,higher education,higher education,good,very low,no,moderate,no,yes,F,F,F
+5–10 hours,0,high school,high school,good,moderate,no,moderate,yes,yes,F,F,F
+< 2 hours,4,higher education,high school,good,very high,yes,very high,no,yes,A,A,A
+2–5 hours,4,high school,primary education only,average,moderate,no,moderate,no,yes,F,F,F
+2–5 hours,0,higher education,5th–9th grade,excellent,moderate,yes,moderate,no,yes,D,D,D
+> 10 hours,6,5th–9th grade,5th–9th grade,good,moderate,yes,high,no,yes,D,C,B
+> 10 hours,2,primary education only,primary education only,average,very low,yes,low,no,yes,F,D,D
+< 2 hours,2,higher education,high school,average,moderate,yes,moderate,no,yes,D,B,B
+2–5 hours,2,5th–9th grade,primary education only,good,moderate,no,very high,yes,yes,F,F,D
+< 2 hours,6,higher education,higher education,excellent,moderate,yes,high,no,yes,D,B,B
+5–10 hours,0,higher education,high school,excellent,moderate,no,very high,no,yes,F,F,F
+< 2 hours,14,higher education,higher education,good,very high,yes,very high,no,yes,F,F,F
+5–10 hours,0,higher education,higher education,good,high,yes,moderate,yes,yes,A,A,A
+< 2 hours,4,higher education,higher education,excellent,moderate,yes,moderate,no,yes,D,C,B
+2–5 hours,26,high school,5th–9th grade,good,moderate,no,very high,no,yes,F,F,F
+2–5 hours,0,high school,higher education,excellent,high,yes,high,no,yes,A,A,A
+> 10 hours,10,high school,high school,good,moderate,no,moderate,no,yes,D,D,D
+> 10 hours,8,5th–9th grade,5th–9th grade,excellent,very low,no,low,no,yes,F,F,F
+5–10 hours,2,high school,high school,excellent,moderate,yes,moderate,no,yes,A,A,A
+> 10 hours,6,higher education,higher education,very poor,moderate,yes,very high,yes,yes,D,C,C
+5–10 hours,4,higher education,higher education,excellent,high,yes,very high,yes,yes,B,B,A
+< 2 hours,6,higher education,higher education,excellent,very high,yes,moderate,no,yes,A,A,A
+5–10 hours,0,high school,high school,good,very low,yes,low,no,yes,F,D,D
+2–5 hours,6,5th–9th grade,5th–9th grade,average,very low,yes,low,no,yes,D,C,C
+< 2 hours,10,higher education,5th–9th grade,average,very high,no,low,no,yes,A,A,A
+2–5 hours,8,5th–9th grade,primary education only,excellent,high,yes,low,yes,yes,F,F,F
+2–5 hours,2,higher education,higher education,excellent,high,yes,high,no,yes,B,B,A
+2–5 hours,2,higher education,higher education,good,high,yes,moderate,no,yes,D,C,B
+< 2 hours,0,high school,high school,excellent,high,yes,low,no,yes,C,B,C
+2–5 hours,20,primary education only,high school,excellent,low,yes,high,no,yes,F,F,F
+< 2 hours,6,high school,higher education,average,high,no,moderate,no,yes,B,C,C
+2–5 hours,2,primary education only,5th–9th grade,average,low,no,moderate,no,yes,A,B,B
+> 10 hours,6,5th–9th grade,5th–9th grade,excellent,very high,yes,high,no,yes,A,B,B
+2–5 hours,2,5th–9th grade,higher education,good,low,yes,low,yes,yes,C,C,C
+< 2 hours,18,higher education,higher education,average,high,yes,high,no,yes,B,D,C
+2–5 hours,0,5th–9th grade,5th–9th grade,excellent,high,no,high,yes,yes,F,F,F
+< 2 hours,0,high school,higher education,excellent,very high,no,very high,no,yes,C,C,C
+2–5 hours,0,high school,higher education,excellent,moderate,yes,low,yes,yes,F,D,D
+2–5 hours,2,none,primary education only,average,high,no,low,no,no,F,F,F
+< 2 hours,0,5th–9th grade,5th–9th grade,average,moderate,yes,moderate,no,yes,F,F,F
+< 2 hours,8,higher education,higher education,average,very high,yes,very high,no,yes,A,A,A
+5–10 hours,0,high school,higher education,good,low,no,low,yes,yes,C,F,F
+< 2 hours,0,primary education only,primary education only,good,moderate,yes,moderate,yes,yes,F,F,F
+< 2 hours,12,5th–9th grade,5th–9th grade,average,high,no,high,yes,yes,D,C,C
+< 2 hours,16,high school,higher education,average,low,no,very low,no,yes,C,D,D
+2–5 hours,0,high school,higher education,excellent,moderate,no,moderate,yes,yes,F,F,F
+5–10 hours,0,higher education,higher education,good,moderate,yes,moderate,yes,yes,D,F,F
+2–5 hours,0,high school,higher education,excellent,high,no,very high,no,yes,D,F,F
+< 2 hours,0,high school,high school,good,moderate,yes,low,yes,yes,F,F,F
+2–5 hours,0,primary education only,primary education only,good,high,no,high,yes,yes,B,C,C
+< 2 hours,0,higher education,higher education,good,moderate,yes,low,no,yes,A,A,B
+> 10 hours,0,higher education,high school,poor,low,no,low,no,yes,F,F,F
+< 2 hours,8,5th–9th grade,5th–9th grade,poor,moderate,yes,moderate,no,yes,F,F,F
+5–10 hours,2,higher education,higher education,good,low,yes,low,no,yes,F,D,D
+< 2 hours,2,primary education only,primary education only,average,high,no,high,no,yes,B,B,C
+< 2 hours,0,5th–9th grade,primary education only,excellent,high,no,very high,no,yes,F,F,F
+2–5 hours,0,primary education only,primary education only,good,high,no,low,no,yes,F,D,D
+2–5 hours,0,high school,5th–9th grade,average,moderate,no,low,no,yes,F,F,F
+2–5 hours,2,primary education only,5th–9th grade,good,moderate,no,low,no,yes,D,D,D
+< 2 hours,0,higher education,higher education,average,moderate,no,low,yes,no,F,F,F
+< 2 hours,0,5th–9th grade,primary education only,good,very high,no,very high,no,yes,F,F,D
+< 2 hours,0,primary education only,primary education only,poor,moderate,no,very high,yes,no,F,F,F
+< 2 hours,6,5th–9th grade,primary education only,good,high,yes,high,yes,yes,C,C,B
+5–10 hours,8,high school,high school,good,low,yes,very low,yes,yes,D,D,D
+< 2 hours,0,high school,5th–9th grade,good,very high,no,high,yes,no,F,F,F
+< 2 hours,0,higher education,higher education,good,low,no,very low,yes,yes,D,D,C
+2–5 hours,2,5th–9th grade,high school,good,high,yes,high,no,yes,D,F,F
+< 2 hours,8,primary education only,5th–9th grade,poor,low,no,low,no,yes,A,C,C
+< 2 hours,6,primary education only,primary education only,excellent,low,yes,very high,no,yes,F,F,D
+< 2 hours,2,5th–9th grade,5th–9th grade,good,low,no,low,no,yes,A,B,B
+2–5 hours,4,high school,high school,good,very high,no,very high,yes,yes,D,C,C
+< 2 hours,0,5th–9th grade,primary education only,average,moderate,yes,low,yes,no,F,F,F
+2–5 hours,6,high school,5th–9th grade,good,high,no,high,yes,yes,F,F,F
+< 2 hours,0,primary education only,5th–9th grade,good,high,yes,high,no,yes,F,F,F
+< 2 hours,2,primary education only,high school,excellent,moderate,no,moderate,no,no,D,D,D
+2–5 hours,0,primary education only,primary education only,excellent,moderate,yes,very high,yes,no,F,F,F
+< 2 hours,16,high school,5th–9th grade,good,very high,yes,low,no,no,C,D,C
+2–5 hours,4,5th–9th grade,5th–9th grade,good,moderate,no,very high,no,no,D,D,D
+2–5 hours,0,higher education,5th–9th grade,good,low,no,moderate,yes,yes,B,B,A
+2–5 hours,0,5th–9th grade,5th–9th grade,excellent,very low,no,very high,no,yes,F,F,F
+2–5 hours,0,higher education,higher education,good,high,no,low,yes,yes,B,B,B
+< 2 hours,0,high school,higher education,average,high,yes,very high,no,yes,F,F,F
+2–5 hours,2,primary education only,none,good,moderate,yes,low,yes,yes,C,B,A
+2–5 hours,0,higher education,higher education,good,high,yes,high,no,yes,C,D,D
+2–5 hours,0,primary education only,high school,good,moderate,yes,very high,yes,yes,F,F,F
+2–5 hours,4,high school,high school,good,high,yes,very high,no,yes,D,D,F
+2–5 hours,4,higher education,high school,good,high,yes,high,no,yes,D,F,F
+2–5 hours,2,5th–9th grade,5th–9th grade,average,high,yes,high,no,yes,C,C,D
+2–5 hours,4,high school,high school,good,moderate,yes,high,no,yes,F,F,F
+< 2 hours,10,higher education,5th–9th grade,good,moderate,yes,moderate,yes,yes,D,F,F
+2–5 hours,4,higher education,high school,excellent,low,yes,moderate,yes,yes,D,D,D
+2–5 hours,10,higher education,high school,average,high,yes,moderate,no,yes,F,F,F
+2–5 hours,2,high school,high school,good,low,yes,moderate,yes,yes,C,C,C
+2–5 hours,0,5th–9th grade,higher education,excellent,high,yes,low,no,yes,A,A,A
+2–5 hours,56,high school,high school,excellent,moderate,yes,moderate,yes,yes,F,F,F
+2–5 hours,14,high school,5th–9th grade,very poor,low,no,low,no,yes,C,C,C
+2–5 hours,12,high school,high school,good,moderate,yes,high,yes,yes,C,C,D
+< 2 hours,2,primary education only,5th–9th grade,average,moderate,yes,moderate,yes,yes,D,C,D
+2–5 hours,0,5th–9th grade,primary education only,good,low,yes,moderate,yes,yes,B,B,B
+2–5 hours,6,high school,high school,average,moderate,no,moderate,yes,yes,F,F,F
+2–5 hours,4,primary education only,5th–9th grade,average,very low,no,moderate,no,yes,F,F,D
+2–5 hours,10,5th–9th grade,high school,good,moderate,no,moderate,no,yes,D,C,C
+2–5 hours,0,primary education only,primary education only,excellent,moderate,yes,moderate,no,yes,F,F,F
+2–5 hours,12,primary education only,5th–9th grade,good,high,yes,high,no,yes,F,F,F
+< 2 hours,8,high school,high school,good,moderate,yes,low,no,yes,F,F,D
+< 2 hours,0,5th–9th grade,high school,excellent,moderate,no,moderate,no,yes,C,B,B
+2–5 hours,0,5th–9th grade,higher education,good,moderate,yes,low,yes,yes,B,B,B
+< 2 hours,4,higher education,higher education,excellent,low,no,moderate,no,yes,A,B,A
+< 2 hours,8,high school,high school,average,moderate,yes,high,no,yes,F,F,D
+< 2 hours,24,higher education,higher education,good,low,no,high,no,yes,A,A,A
+2–5 hours,0,higher education,higher education,good,very high,no,low,no,yes,F,F,D
+2–5 hours,2,higher education,high school,good,moderate,yes,very high,no,yes,A,A,A
+2–5 hours,6,5th–9th grade,high school,good,high,yes,moderate,no,yes,F,D,D
+2–5 hours,4,primary education only,primary education only,good,high,no,high,no,yes,F,F,D
+< 2 hours,18,5th–9th grade,5th–9th grade,excellent,moderate,no,low,no,yes,F,F,F
+> 10 hours,6,5th–9th grade,5th–9th grade,excellent,moderate,yes,very high,no,yes,D,D,D
+5–10 hours,28,high school,higher education,good,high,no,moderate,yes,yes,D,F,F
+2–5 hours,5,high school,primary education only,poor,moderate,no,moderate,no,yes,F,F,F
+2–5 hours,10,higher education,high school,very poor,moderate,yes,low,yes,yes,D,C,C
+< 2 hours,6,primary education only,primary education only,good,moderate,no,low,no,yes,F,F,D
+5–10 hours,6,higher education,high school,good,high,yes,low,yes,yes,F,F,F
+> 10 hours,10,high school,high school,good,moderate,yes,moderate,no,yes,F,F,F
+2–5 hours,13,higher education,higher education,excellent,moderate,no,very high,yes,yes,C,C,C
+2–5 hours,0,5th–9th grade,5th–9th grade,average,moderate,no,high,no,yes,C,C,B
+2–5 hours,15,5th–9th grade,5th–9th grade,good,high,yes,high,no,yes,F,F,F
+< 2 hours,12,higher education,higher education,excellent,low,no,very low,no,yes,F,D,D
+2–5 hours,2,high school,5th–9th grade,good,high,no,high,no,yes,B,B,B
+2–5 hours,22,higher education,high school,average,high,no,very high,yes,yes,F,F,F
+2–5 hours,13,high school,high school,average,low,no,high,no,yes,F,F,F
+< 2 hours,3,5th–9th grade,high school,average,moderate,no,moderate,no,yes,F,F,F
+5–10 hours,4,5th–9th grade,5th–9th grade,good,moderate,yes,moderate,no,yes,F,D,D
+2–5 hours,2,5th–9th grade,primary education only,good,low,yes,very high,no,yes,F,F,F
+5–10 hours,0,primary education only,primary education only,good,moderate,yes,high,yes,yes,F,F,F
+2–5 hours,2,5th–9th grade,high school,poor,moderate,no,very low,no,yes,A,A,A
+2–5 hours,0,5th–9th grade,5th–9th grade,average,moderate,no,moderate,no,yes,C,C,C
+5–10 hours,0,higher education,higher education,excellent,moderate,yes,low,no,yes,C,C,B
+2–5 hours,16,high school,primary education only,excellent,moderate,yes,moderate,yes,yes,F,F,F
+2–5 hours,10,high school,5th–9th grade,excellent,moderate,yes,high,no,yes,A,B,B
+2–5 hours,2,5th–9th grade,high school,excellent,moderate,no,moderate,no,yes,C,D,C
+2–5 hours,14,5th–9th grade,primary education only,good,moderate,yes,low,yes,yes,D,F,F
+5–10 hours,10,5th–9th grade,primary education only,average,low,yes,moderate,yes,yes,C,D,C
+2–5 hours,14,higher education,high school,average,low,yes,moderate,yes,yes,C,C,B
+2–5 hours,4,5th–9th grade,5th–9th grade,good,very high,yes,low,no,yes,D,D,D
+2–5 hours,14,higher education,higher education,good,very high,yes,very high,yes,yes,D,F,F
+2–5 hours,2,higher education,higher education,good,low,yes,high,no,yes,B,C,C
+2–5 hours,18,primary education only,primary education only,average,high,no,low,no,yes,F,F,F
+5–10 hours,10,high school,5th–9th grade,excellent,moderate,yes,moderate,yes,yes,D,F,D
+2–5 hours,4,5th–9th grade,5th–9th grade,good,high,yes,low,yes,yes,B,C,C
+< 2 hours,20,5th–9th grade,primary education only,good,very high,no,low,yes,yes,C,C,C
+2–5 hours,2,5th–9th grade,primary education only,poor,very low,yes,very low,no,yes,C,D,D
+2–5 hours,0,5th–9th grade,5th–9th grade,excellent,very high,no,high,no,no,F,F,F
+2–5 hours,14,higher education,high school,poor,very high,yes,very high,yes,yes,C,C,C
+2–5 hours,2,higher education,higher education,average,moderate,no,moderate,no,yes,D,D,C
+< 2 hours,0,higher education,high school,excellent,high,yes,very high,no,yes,F,F,F
+< 2 hours,0,higher education,higher education,excellent,moderate,yes,low,no,yes,C,C,C
+5–10 hours,0,5th–9th grade,primary education only,good,high,no,high,yes,yes,F,F,F
+< 2 hours,6,5th–9th grade,primary education only,good,moderate,no,moderate,no,yes,A,A,A
+< 2 hours,4,5th–9th grade,high school,excellent,low,no,low,no,yes,C,C,C
+< 2 hours,16,high school,primary education only,excellent,high,no,very high,yes,no,F,F,F
+2–5 hours,8,high school,high school,good,moderate,no,moderate,yes,yes,F,F,F
+< 2 hours,0,none,5th–9th grade,good,moderate,no,low,no,yes,C,B,B
+< 2 hours,0,high school,5th–9th grade,good,high,no,very high,no,no,F,F,F
+2–5 hours,6,high school,high school,excellent,moderate,no,moderate,no,yes,F,D,D
+< 2 hours,4,5th–9th grade,primary education only,average,low,no,very high,no,no,F,F,F
+< 2 hours,0,5th–9th grade,primary education only,average,moderate,yes,low,no,yes,F,F,F
+< 2 hours,0,5th–9th grade,primary education only,good,high,no,low,no,yes,F,C,C
+< 2 hours,2,primary education only,primary education only,good,high,yes,high,no,yes,F,F,F
+> 10 hours,6,higher education,5th–9th grade,good,low,yes,moderate,no,yes,B,C,C
+2–5 hours,12,higher education,high school,good,moderate,no,very low,no,yes,D,D,D
+2–5 hours,8,5th–9th grade,primary education only,excellent,low,yes,high,no,yes,B,B,B
+> 10 hours,0,5th–9th grade,5th–9th grade,average,high,yes,very low,yes,yes,D,F,F
+2–5 hours,21,higher education,high school,average,very low,no,low,yes,yes,A,A,A
+2–5 hours,2,higher education,high school,good,moderate,no,low,no,yes,F,F,F
+5–10 hours,1,high school,5th–9th grade,excellent,moderate,yes,low,no,yes,C,C,C
+5–10 hours,4,high school,high school,average,low,yes,moderate,no,yes,D,F,F
+5–10 hours,0,5th–9th grade,5th–9th grade,good,moderate,yes,moderate,yes,yes,F,D,F
+2–5 hours,13,high school,higher education,good,low,yes,very high,no,yes,A,A,A
+2–5 hours,2,high school,primary education only,excellent,high,yes,high,yes,yes,F,F,D
+2–5 hours,8,higher education,higher education,good,moderate,yes,high,no,yes,C,D,D
+2–5 hours,10,higher education,5th–9th grade,excellent,high,yes,very high,yes,yes,D,F,D
+2–5 hours,0,5th–9th grade,primary education only,good,moderate,no,very high,yes,no,F,F,F
+2–5 hours,15,high school,high school,good,moderate,yes,very high,no,yes,F,F,F
+> 10 hours,4,5th–9th grade,high school,good,very high,yes,very high,yes,yes,B,B,B
+2–5 hours,2,primary education only,primary education only,good,high,no,moderate,no,yes,D,D,D
+2–5 hours,2,primary education only,5th–9th grade,average,very high,yes,low,yes,yes,B,B,B
+2–5 hours,2,5th–9th grade,higher education,good,moderate,no,moderate,yes,yes,D,D,D
+2–5 hours,6,5th–9th grade,5th–9th grade,good,high,no,high,yes,yes,C,C,C
+2–5 hours,75,high school,5th–9th grade,good,very low,no,very low,yes,no,D,F,F
+< 2 hours,22,higher education,higher education,average,low,yes,high,no,yes,F,F,F
+2–5 hours,15,higher education,higher education,poor,high,yes,high,yes,yes,F,F,F
+< 2 hours,8,higher education,high school,good,low,yes,moderate,no,yes,D,D,D
+< 2 hours,30,higher education,primary education only,good,very high,yes,high,yes,yes,F,F,F
+< 2 hours,19,high school,5th–9th grade,good,high,no,high,no,yes,D,F,D
+> 10 hours,1,primary education only,primary education only,excellent,low,yes,low,no,yes,C,C,C
+2–5 hours,4,primary education only,primary education only,excellent,high,yes,high,no,yes,F,F,D
+2–5 hours,4,5th–9th grade,5th–9th grade,excellent,high,no,very high,no,yes,D,F,D
+2–5 hours,2,primary education only,primary education only,good,moderate,no,moderate,no,yes,C,D,D
+5–10 hours,5,5th–9th grade,5th–9th grade,good,moderate,no,moderate,no,yes,A,A,A
+5–10 hours,6,primary education only,primary education only,good,moderate,no,moderate,no,yes,C,C,C
+5–10 hours,6,5th–9th grade,primary education only,good,low,yes,high,no,yes,B,B,B
+2–5 hours,9,higher education,higher education,excellent,high,yes,moderate,no,yes,B,C,B
+2–5 hours,11,higher education,5th–9th grade,good,moderate,yes,low,yes,yes,C,D,D
+5–10 hours,0,higher education,high school,good,low,no,low,no,yes,B,B,B
+2–5 hours,12,5th–9th grade,primary education only,excellent,high,no,moderate,yes,yes,C,C,C
+> 10 hours,6,high school,primary education only,average,very low,no,low,no,yes,A,A,A
+5–10 hours,8,high school,5th–9th grade,excellent,high,yes,low,no,yes,B,C,B
+< 2 hours,4,high school,high school,good,high,no,moderate,no,yes,B,C,D
+2–5 hours,0,higher education,higher education,poor,moderate,yes,high,no,yes,D,F,F
+2–5 hours,10,higher education,high school,good,high,no,very high,yes,yes,D,F,F
+> 10 hours,0,higher education,high school,good,moderate,no,moderate,no,yes,B,C,B
+< 2 hours,5,higher education,higher education,very poor,high,no,low,yes,yes,A,B,A
+2–5 hours,14,higher education,higher education,good,low,no,high,yes,yes,C,D,D
+< 2 hours,0,higher education,higher education,good,very low,no,very low,no,yes,D,D,D
+5–10 hours,0,higher education,5th–9th grade,good,moderate,no,moderate,no,yes,B,C,B
+> 10 hours,0,high school,5th–9th grade,excellent,low,yes,low,no,yes,A,A,A
+2–5 hours,20,high school,high school,good,high,yes,high,yes,yes,B,B,C
+2–5 hours,8,5th–9th grade,higher education,good,high,yes,moderate,no,yes,B,C,C
+< 2 hours,0,high school,5th–9th grade,excellent,very high,yes,moderate,no,yes,A,A,A
+< 2 hours,38,higher education,higher education,good,moderate,no,high,yes,yes,F,F,F
+2–5 hours,0,high school,high school,good,very high,yes,moderate,yes,yes,B,C,C
+2–5 hours,18,primary education only,primary education only,good,high,yes,moderate,no,yes,C,D,D
+2–5 hours,0,primary education only,5th–9th grade,good,low,yes,high,yes,yes,F,F,F
+2–5 hours,20,5th–9th grade,primary education only,average,high,no,very low,yes,no,B,C,C
+2–5 hours,3,primary education only,5th–9th grade,good,very high,no,low,no,yes,C,D,D
+2–5 hours,22,high school,5th–9th grade,good,low,no,low,yes,yes,C,D,D
+5–10 hours,14,primary education only,primary education only,good,very low,no,low,yes,yes,B,C,C
+5–10 hours,40,5th–9th grade,high school,good,very low,no,low,yes,yes,C,D,D
+2–5 hours,0,5th–9th grade,primary education only,excellent,moderate,yes,moderate,no,yes,F,F,F
+5–10 hours,9,higher education,high school,good,moderate,yes,high,yes,yes,F,D,F
+5–10 hours,0,high school,higher education,good,moderate,yes,high,no,yes,D,D,D
+2–5 hours,2,higher education,higher education,good,high,no,high,no,yes,D,D,D
+2–5 hours,23,higher education,high school,excellent,low,no,low,yes,yes,C,C,C
+2–5 hours,12,5th–9th grade,5th–9th grade,good,low,no,low,yes,yes,D,F,F
+5–10 hours,3,5th–9th grade,5th–9th grade,average,moderate,yes,low,no,yes,D,D,D
+5–10 hours,1,high school,primary education only,average,high,no,moderate,no,yes,C,B,B
+5–10 hours,0,none,5th–9th grade,average,moderate,no,moderate,no,yes,A,B,B
+5–10 hours,3,higher education,higher education,good,moderate,yes,moderate,no,yes,F,C,D
+< 2 hours,3,high school,high school,good,moderate,yes,very high,no,yes,B,B,A
+< 2 hours,8,5th–9th grade,5th–9th grade,good,high,no,very high,no,yes,D,D,D
+5–10 hours,7,higher education,higher education,excellent,high,yes,high,no,yes,D,F,F
+5–10 hours,4,higher education,higher education,good,moderate,no,moderate,yes,yes,B,B,B
+> 10 hours,2,5th–9th grade,5th–9th grade,good,very high,yes,very high,no,yes,F,F,F
+5–10 hours,7,5th–9th grade,higher education,good,high,no,moderate,yes,yes,C,B,B
+2–5 hours,0,high school,high school,excellent,moderate,yes,high,no,yes,F,F,F
+2–5 hours,0,5th–9th grade,5th–9th grade,good,moderate,yes,moderate,yes,yes,F,F,F
+> 10 hours,0,5th–9th grade,5th–9th grade,good,high,yes,high,no,yes,D,F,F
+5–10 hours,16,high school,higher education,good,high,no,very high,no,yes,A,B,B
+5–10 hours,12,high school,primary education only,excellent,high,no,moderate,no,yes,B,C,C
+2–5 hours,0,high school,5th–9th grade,good,moderate,no,low,yes,yes,F,F,F
+> 10 hours,7,high school,high school,excellent,moderate,no,moderate,no,yes,A,B,A
+2–5 hours,4,high school,5th–9th grade,good,moderate,no,moderate,no,yes,F,D,D
+5–10 hours,4,5th–9th grade,primary education only,good,moderate,yes,high,yes,yes,D,C,D
+2–5 hours,0,higher education,higher education,good,moderate,yes,moderate,no,yes,D,D,F
+2–5 hours,11,high school,higher education,good,moderate,yes,moderate,yes,yes,A,B,B
+2–5 hours,0,5th–9th grade,5th–9th grade,average,moderate,no,very low,yes,yes,F,F,F
+5–10 hours,4,5th–9th grade,high school,good,moderate,no,moderate,no,yes,D,D,D
+5–10 hours,7,high school,5th–9th grade,excellent,high,no,moderate,yes,yes,C,C,B
+5–10 hours,9,higher education,high school,excellent,moderate,no,low,yes,yes,A,B,A
+5–10 hours,0,higher education,high school,excellent,high,no,very high,yes,yes,D,D,F
+5–10 hours,0,higher education,high school,good,high,yes,moderate,yes,yes,C,B,B
+< 2 hours,10,high school,5th–9th grade,poor,very high,no,very high,no,yes,D,C,C
+2–5 hours,8,primary education only,primary education only,excellent,high,no,high,no,yes,F,F,F
+2–5 hours,2,high school,high school,good,very high,no,high,no,yes,C,C,C
+< 2 hours,7,primary education only,high school,good,moderate,no,moderate,yes,no,F,F,F
+< 2 hours,4,primary education only,primary education only,good,high,no,high,no,yes,F,F,F
+2–5 hours,4,higher education,high school,good,very high,yes,very high,yes,yes,C,D,D
+2–5 hours,0,high school,high school,excellent,moderate,no,high,yes,yes,D,F,F
+2–5 hours,4,higher education,higher education,good,moderate,yes,moderate,no,yes,C,C,C
+2–5 hours,2,high school,5th–9th grade,very poor,low,no,moderate,yes,yes,C,C,D
+< 2 hours,4,primary education only,primary education only,average,moderate,no,low,yes,yes,D,D,D
+5–10 hours,0,primary education only,primary education only,excellent,moderate,no,low,no,yes,A,A,A
+2–5 hours,0,primary education only,higher education,good,moderate,no,high,yes,yes,C,C,C
+2–5 hours,2,primary education only,primary education only,good,high,yes,moderate,no,no,C,C,C
+2–5 hours,0,high school,high school,good,moderate,no,low,yes,yes,D,D,D
+2–5 hours,0,higher education,higher education,poor,moderate,yes,high,yes,yes,A,B,B
+2–5 hours,0,primary education only,5th–9th grade,average,low,no,low,no,yes,C,D,C
+2–5 hours,4,primary education only,high school,average,moderate,no,high,no,yes,D,D,D
+5–10 hours,0,higher education,higher education,good,low,no,low,yes,yes,C,C,C
+< 2 hours,0,primary education only,primary education only,excellent,low,no,very low,yes,yes,F,F,F
+< 2 hours,0,5th–9th grade,high school,excellent,low,no,moderate,yes,yes,D,D,D
+2–5 hours,10,higher education,higher education,average,low,no,low,yes,yes,B,C,D
+2–5 hours,4,high school,5th–9th grade,average,low,yes,low,yes,yes,F,F,F
+< 2 hours,3,primary education only,5th–9th grade,good,moderate,yes,moderate,yes,no,B,C,C
+5–10 hours,8,5th–9th grade,5th–9th grade,average,high,yes,moderate,yes,yes,C,D,D
+< 2 hours,14,primary education only,5th–9th grade,average,very high,yes,very high,no,yes,F,F,F
+5–10 hours,0,higher education,higher education,excellent,high,no,high,no,yes,A,A,A
+5–10 hours,2,primary education only,primary education only,good,moderate,no,low,no,yes,F,F,D
+5–10 hours,4,higher education,5th–9th grade,excellent,high,no,moderate,yes,yes,B,B,B
+2–5 hours,4,higher education,higher education,excellent,high,yes,moderate,no,yes,F,F,D
+2–5 hours,0,high school,high school,good,very low,no,moderate,yes,yes,B,B,B
+2–5 hours,17,high school,primary education only,good,very high,yes,high,no,yes,D,D,D
+2–5 hours,4,higher education,higher education,average,low,yes,high,no,yes,B,B,B
+< 2 hours,5,5th–9th grade,primary education only,good,high,yes,moderate,yes,yes,F,F,F
+2–5 hours,2,5th–9th grade,high school,good,high,yes,moderate,no,yes,D,D,D
+< 2 hours,0,primary education only,primary education only,good,moderate,no,low,no,yes,F,F,F
+< 2 hours,14,higher education,5th–9th grade,excellent,high,no,moderate,no,yes,F,F,F
+5–10 hours,2,5th–9th grade,5th–9th grade,excellent,moderate,no,moderate,no,yes,D,F,D
+< 2 hours,7,higher education,higher education,good,high,yes,moderate,yes,yes,F,F,F
+5–10 hours,0,5th–9th grade,high school,excellent,high,yes,low,no,yes,F,F,F
+2–5 hours,0,high school,primary education only,good,moderate,no,high,no,yes,F,F,F
+2–5 hours,0,primary education only,primary education only,very poor,very low,yes,very low,no,yes,F,F,F
+2–5 hours,11,5th–9th grade,5th–9th grade,excellent,very high,no,high,no,yes,F,F,F
+< 2 hours,3,high school,primary education only,poor,high,no,very high,no,yes,B,A,A
+< 2 hours,3,primary education only,primary education only,excellent,very high,no,moderate,no,yes,D,F,F
+< 2 hours,0,high school,5th–9th grade,good,high,no,very low,no,yes,D,C,D
+< 2 hours,5,primary education only,primary education only,average,low,no,moderate,no,yes,F,F,F
