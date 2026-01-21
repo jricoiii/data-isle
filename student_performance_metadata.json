@@ -1,0 +1,22 @@
+{
+  "name": "portuguese_student_performance",
+  "info": [
+    "Student performance data collected from Portuguese secondary schools (2008).",
+    "Includes study habits, family context, social factors, and academic outcomes."
+  ],
+  "variables": {
+    "studytime": "Amount of time the student studies during a typical school week.",
+    "absences": "Number of school days the student was absent.",
+    "mother_education": "Highest level of education completed by the student\u2019s mother.",
+    "father_education": "Highest level of education completed by the student\u2019s father.",
+    "family_relationship": "Student\u2019s reported quality of family relationships.",
+    "free_time": "Amount of free time the student has after school.",
+    "going_out": "How often the student goes out with friends.",
+    "activities": "Whether the student participates in extracurricular activities such as sports or clubs.",
+    "romantic": "Whether the student is currently in a romantic relationship.",
+    "higher": "Whether the student plans to pursue higher education after high school.",
+    "grade_period_1": "Letter grade for the first grading period.",
+    "grade_period_2": "Letter grade for the second grading period.",
+    "final_grade": "Letter grade for the final course grade."
+  }
+}
