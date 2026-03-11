@@ -1,0 +1,75 @@
+{
+  "dataset_name": "season_marker_weather_with_sunny_cloudy_and_rain_inches",
+  "variables": [
+    {
+      "name": "city",
+      "label": "City",
+      "type": "categorical",
+      "categories": [
+        "Las Vegas",
+        "Los Angeles",
+        "Miami",
+        "New York City",
+        "San Francisco",
+        "Seattle"
+      ]
+    },
+    {
+      "name": "year",
+      "label": "Year",
+      "type": "quantitative"
+    },
+    {
+      "name": "date",
+      "label": "Season Marker",
+      "type": "categorical",
+      "categories": [
+        "fall equinox",
+        "spring equinox",
+        "summer solstice",
+        "winter solstice"
+      ]
+    },
+    {
+      "name": "observed_calendar_date",
+      "label": "Observed Calendar Date",
+      "type": "categorical"
+    },
+    {
+      "name": "tmax_f",
+      "label": "Daily High Temperature (F)",
+      "type": "quantitative"
+    },
+    {
+      "name": "tmin_f",
+      "label": "Daily Low Temperature (F)",
+      "type": "quantitative"
+    },
+    {
+      "name": "precip_in",
+      "label": "Rain Inches",
+      "type": "quantitative"
+    },
+    {
+      "name": "sunny_or_cloudy_best_effort",
+      "label": "Sunny Or Cloudy",
+      "type": "categorical",
+      "categories": [
+        "cloudy/foggy",
+        "cloudy/precip",
+        "unknown"
+      ]
+    },
+    {
+      "name": "rained_snowed_or_nothing",
+      "label": "Precipitation Type",
+      "type": "categorical",
+      "categories": [
+        "nothing",
+        "rain",
+        "rain and snow",
+        "snow"
+      ]
+    }
+  ]
+}
