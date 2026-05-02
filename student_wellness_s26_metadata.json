@@ -1,0 +1,868 @@
+{
+  "dataset": {
+    "title": "Student Wellness Survey Spring 2026",
+    "source": "Ohlone College Student Well Being Study, Spring 2026",
+    "rows": 247,
+    "data_format": "JSON array of flat records; missing values are null",
+    "notes": "Categorical levels were cleaned for consistency. Long labels with examples were shortened. Custom Other responses are collapsed to Other and preserved in *_other_text variables."
+  },
+  "variables": {
+    "student_id": {
+      "label": "Student ID",
+      "type": "identifier"
+    },
+    "life_direction_meaning": {
+      "label": "Life Direction Meaning",
+      "question_number": 1,
+      "question_text": "My life feels like it is moving in a direction that means something to me.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "college_work_resilience": {
+      "label": "College Work Resilience",
+      "question_number": 2,
+      "question_text": "When college work is difficult, I feel capable of finding a way through it.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "campus_seen_supported": {
+      "label": "Campus Seen Supported",
+      "question_number": 3,
+      "question_text": "At this college, I feel seen, respected, and supported.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "emotionally_steady": {
+      "label": "Emotionally Steady",
+      "question_number": 4,
+      "question_text": "In my daily life, I generally feel emotionally steady and okay.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "hopeful_future": {
+      "label": "Hopeful Future",
+      "question_number": 5,
+      "question_text": "I feel hopeful about my future.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "clear_values": {
+      "label": "Clear Values",
+      "question_number": 6,
+      "question_text": "I have a clear sense of what really matters to me.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "life_depth_moments": {
+      "label": "Life Depth Moments",
+      "question_number": 7,
+      "question_text": "I have moments that lift me out of routine and remind me that life is deeper than just getting through the day.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "cheerful_spirits": {
+      "label": "Cheerful Spirits",
+      "question_number": 8,
+      "question_text": "I feel cheerful and in good spirits much of the time.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "college_growth": {
+      "label": "College Growth",
+      "question_number": 9,
+      "question_text": "My current college experience is contributing to meaningful growth, intellectually and personally.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "academic_wellbeing": {
+      "label": "Academic Wellbeing",
+      "question_number": 10,
+      "question_text": "Right now, school feels like it is going reasonably well for me academically.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "biggest_challenge": {
+      "label": "Biggest Challenge",
+      "question_number": 11,
+      "question_text": "What is the biggest challenge that makes it harder for you to do your best as a student?",
+      "type": "categorical"
+    },
+    "school_time_energy": {
+      "label": "School Time Energy",
+      "question_number": 12,
+      "question_text": "I have enough time and energy to do what school asks of me.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "faculty_staff_support": {
+      "label": "Faculty Staff Support",
+      "question_number": 13,
+      "question_text": "There is at least one faculty or staff member here who supports my growth.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "people_to_turn_to": {
+      "label": "People To Turn To",
+      "question_number": 14,
+      "question_text": "When life gets hard, I have people I can turn to.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "know_support_resources": {
+      "label": "Know Support Resources",
+      "question_number": 15,
+      "question_text": "I understand how to find support at this college and feel able to make use of it when needed.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "focus_place": {
+      "label": "Focus Place",
+      "question_number": 16,
+      "question_text": "When I need to get schoolwork done, I usually have a place I can go and focus.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "enough_sleep": {
+      "label": "Enough Sleep",
+      "question_number": 17,
+      "question_text": "I usually get enough sleep to feel well rested.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    "parent_caregiver_support": {
+      "label": "Parent Caregiver Support",
+      "question_number": 18,
+      "question_text": "My relationship with my parent(s) or caregiver(s) is a source of support in my life.",
+      "type": "ordinal",
+      "levels": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree",
+        "Not applicable"
+      ]
+    },
+    "enjoyable_company": {
+      "label": "Enjoyable Company",
+      "question_number": 19,
+      "question_text": "I get to be around people whose company I genuinely enjoy.",
+      "type": "ordinal",
+      "levels": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often"
+      ]
+    },
+    "feels_alone": {
+      "label": "Feels Alone",
+      "question_number": 20,
+      "question_text": "Even when I am around people, I still feel alone.",
+      "type": "ordinal",
+      "levels": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often"
+      ]
+    },
+    "phone_social_media_interference": {
+      "label": "Phone Social Media Interference",
+      "question_number": 21,
+      "question_text": "Phone or social media use interferes with my sleep or focus.",
+      "type": "ordinal",
+      "levels": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often"
+      ]
+    },
+    "physical_activity": {
+      "label": "Physical Activity",
+      "question_number": 22,
+      "question_text": "I engage in physical activity or exercise.",
+      "type": "ordinal",
+      "levels": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often"
+      ]
+    },
+    "alcohol_cannabis_social_coping": {
+      "label": "Alcohol Cannabis Social Coping",
+      "question_number": 23,
+      "question_text": "Alcohol or cannabis are part of how I socialize, connect with others, or cope with stress.",
+      "type": "ordinal",
+      "levels": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often",
+        "Prefer not to say"
+      ]
+    },
+    "money_stress": {
+      "label": "Money Stress",
+      "question_number": 24,
+      "question_text": "How heavy does money stress feel in your life right now?",
+      "type": "ordinal",
+      "levels": [
+        "Not at all",
+        "Slight",
+        "Moderate",
+        "Very",
+        "Extreme",
+        "Prefer not to say"
+      ]
+    },
+    "study_hours_outside_class": {
+      "label": "Study Hours Outside Class",
+      "question_number": 25,
+      "question_text": "About how many hours per week do you usually spend on schoolwork outside of class?",
+      "type": "ordinal",
+      "levels": [
+        "<5 hours",
+        "5-10 hours",
+        "11-19 hours",
+        "20+ hours"
+      ]
+    },
+    "life_priority": {
+      "label": "Life Priority",
+      "question_number": 26,
+      "question_text": "Which of the following feels most important in your life right now?",
+      "type": "categorical",
+      "levels": [
+        "Doing well in school",
+        "Financial stability",
+        "Family responsibilities",
+        "Friendships or relationships",
+        "Mental/emotional well-being",
+        "Enjoying life",
+        "Figuring out my future",
+        "Other"
+      ]
+    },
+    "age_group": {
+      "label": "Age Group",
+      "question_number": 27,
+      "question_text": "What is your age?",
+      "type": "ordinal",
+      "levels": [
+        "17 or younger",
+        "18-19",
+        "20-21",
+        "22-25",
+        "26 or older",
+        "Prefer not to say"
+      ]
+    },
+    "college_stage": {
+      "label": "College Stage",
+      "question_number": 28,
+      "question_text": "Which best describes your stage in college?",
+      "type": "ordinal",
+      "levels": [
+        "First year",
+        "Second year",
+        "Third year or beyond",
+        "Prefer not to say"
+      ]
+    },
+    "gender": {
+      "label": "Gender",
+      "question_number": 29,
+      "question_text": "What is your gender?",
+      "type": "categorical",
+      "levels": [
+        "Woman",
+        "Man",
+        "Nonbinary",
+        "Prefer not to say",
+        "Other"
+      ]
+    },
+    "race_ethnicity": {
+      "label": "Race Ethnicity",
+      "question_number": 30,
+      "question_text": "How would you best describe your race/ethnicity? Please choose the one option that fits you best.",
+      "type": "categorical",
+      "levels": [
+        "East Asian",
+        "South Asian",
+        "Southeast Asian",
+        "Middle Eastern/North African",
+        "Latino/Hispanic",
+        "Black/African American",
+        "White",
+        "Native American/Indigenous",
+        "Pacific Islander",
+        "Multiracial",
+        "Prefer not to say",
+        "Other"
+      ]
+    },
+    "parent_four_year_college": {
+      "label": "Parent Four Year College",
+      "question_number": 31,
+      "question_text": "Did either of your parents or guardians graduate from a four-year college?",
+      "type": "categorical",
+      "levels": [
+        "Yes",
+        "No",
+        "Not sure",
+        "Prefer not to say"
+      ]
+    },
+    "college_goal": {
+      "label": "College Goal",
+      "question_number": 32,
+      "question_text": "Which best describes your main goal in college right now?",
+      "type": "categorical",
+      "levels": [
+        "Transfer",
+        "Associate degree",
+        "Certificate",
+        "Undecided",
+        "Prefer not to say",
+        "Other"
+      ]
+    },
+    "major_field": {
+      "label": "Major Field",
+      "question_number": 33,
+      "question_text": "Which best describes your college major or field of study?",
+      "type": "categorical",
+      "levels": [
+        "STEM",
+        "Social sciences",
+        "Humanities",
+        "Business",
+        "Health professions",
+        "Arts/creative fields",
+        "Career/technical fields",
+        "Undecided",
+        "Prefer not to say",
+        "Other"
+      ]
+    },
+    "major_confidence": {
+      "label": "Major Confidence",
+      "question_number": 34,
+      "question_text": "How confident do you feel that your current major or area of study is what you want to pursue?",
+      "type": "ordinal",
+      "levels": [
+        "Not confident at all",
+        "Not very confident",
+        "Unsure",
+        "Somewhat confident",
+        "Very confident",
+        "No major chosen"
+      ]
+    },
+    "spring_credits": {
+      "label": "Spring Credits",
+      "question_number": 35,
+      "question_text": "How many college credits did you enroll in this Spring Semester?",
+      "type": "ordinal",
+      "levels": [
+        "1-5 credits",
+        "6-8 credits",
+        "9-11 credits",
+        "12-14 credits",
+        "15+ credits"
+      ]
+    },
+    "class_modality": {
+      "label": "Class Modality",
+      "question_number": 36,
+      "question_text": "How are you taking most of your classes this Spring Semester?",
+      "type": "ordinal",
+      "levels": [
+        "All/mostly in-person",
+        "More in-person",
+        "About equal",
+        "More online",
+        "All/mostly online"
+      ]
+    },
+    "paid_work_hours": {
+      "label": "Paid Work Hours",
+      "question_number": 37,
+      "question_text": "About how many hours per week do you work for pay?",
+      "type": "ordinal",
+      "levels": [
+        "0 hours",
+        "1-9 hours",
+        "10-19 hours",
+        "20-29 hours",
+        "30+ hours"
+      ]
+    },
+    "biggest_challenge_other_text": {
+      "label": "Biggest Challenge Other Text",
+      "type": "text",
+      "description": "Original custom response when the cleaned category is Other or when useful to preserve detail."
+    },
+    "life_priority_other_text": {
+      "label": "Life Priority Other Text",
+      "type": "text",
+      "description": "Original custom response when the cleaned category is Other or when useful to preserve detail."
+    },
+    "gender_other_text": {
+      "label": "Gender Other Text",
+      "type": "text",
+      "description": "Original custom response when the cleaned category is Other or when useful to preserve detail."
+    },
+    "race_ethnicity_other_text": {
+      "label": "Race Ethnicity Other Text",
+      "type": "text",
+      "description": "Original custom response when the cleaned category is Other or when useful to preserve detail."
+    },
+    "college_goal_other_text": {
+      "label": "College Goal Other Text",
+      "type": "text",
+      "description": "Original custom response when the cleaned category is Other or when useful to preserve detail."
+    },
+    "major_field_other_text": {
+      "label": "Major Field Other Text",
+      "type": "text",
+      "description": "Original custom response when the cleaned category is Other or when useful to preserve detail."
+    },
+    "life_direction_meaning_score": {
+      "label": "Life Direction Meaning Score",
+      "type": "quantitative"
+    },
+    "college_work_resilience_score": {
+      "label": "College Work Resilience Score",
+      "type": "quantitative"
+    },
+    "campus_seen_supported_score": {
+      "label": "Campus Seen Supported Score",
+      "type": "quantitative"
+    },
+    "emotionally_steady_score": {
+      "label": "Emotionally Steady Score",
+      "type": "quantitative"
+    },
+    "hopeful_future_score": {
+      "label": "Hopeful Future Score",
+      "type": "quantitative"
+    },
+    "clear_values_score": {
+      "label": "Clear Values Score",
+      "type": "quantitative"
+    },
+    "life_depth_moments_score": {
+      "label": "Life Depth Moments Score",
+      "type": "quantitative"
+    },
+    "cheerful_spirits_score": {
+      "label": "Cheerful Spirits Score",
+      "type": "quantitative"
+    },
+    "college_growth_score": {
+      "label": "College Growth Score",
+      "type": "quantitative"
+    },
+    "academic_wellbeing_score": {
+      "label": "Academic Wellbeing Score",
+      "type": "quantitative"
+    },
+    "school_time_energy_score": {
+      "label": "School Time Energy Score",
+      "type": "quantitative"
+    },
+    "faculty_staff_support_score": {
+      "label": "Faculty Staff Support Score",
+      "type": "quantitative"
+    },
+    "people_to_turn_to_score": {
+      "label": "People To Turn To Score",
+      "type": "quantitative"
+    },
+    "know_support_resources_score": {
+      "label": "Know Support Resources Score",
+      "type": "quantitative"
+    },
+    "focus_place_score": {
+      "label": "Focus Place Score",
+      "type": "quantitative"
+    },
+    "enough_sleep_score": {
+      "label": "Enough Sleep Score",
+      "type": "quantitative"
+    },
+    "parent_caregiver_support_score": {
+      "label": "Parent Caregiver Support Score",
+      "type": "quantitative"
+    },
+    "enjoyable_company_score": {
+      "label": "Enjoyable Company Score",
+      "type": "quantitative"
+    },
+    "feels_alone_score": {
+      "label": "Feels Alone Score",
+      "type": "quantitative"
+    },
+    "phone_social_media_interference_score": {
+      "label": "Phone Social Media Interference Score",
+      "type": "quantitative"
+    },
+    "physical_activity_score": {
+      "label": "Physical Activity Score",
+      "type": "quantitative"
+    },
+    "alcohol_cannabis_social_coping_score": {
+      "label": "Alcohol Cannabis Social Coping Score",
+      "type": "quantitative"
+    },
+    "money_stress_score": {
+      "label": "Money Stress Score",
+      "type": "quantitative"
+    },
+    "study_hours_outside_class_score": {
+      "label": "Study Hours Outside Class Score",
+      "type": "quantitative"
+    },
+    "major_confidence_score": {
+      "label": "Major Confidence Score",
+      "type": "quantitative"
+    },
+    "spring_credits_score": {
+      "label": "Spring Credits Score",
+      "type": "quantitative"
+    },
+    "paid_work_hours_score": {
+      "label": "Paid Work Hours Score",
+      "type": "quantitative"
+    },
+    "wellbeing_index": {
+      "label": "Wellbeing Index",
+      "type": "quantitative"
+    },
+    "school_support_index": {
+      "label": "School Support Index",
+      "type": "quantitative"
+    }
+  },
+  "ordered_levels_for_isle": {
+    "life_direction_meaning": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "college_work_resilience": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "campus_seen_supported": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "emotionally_steady": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "hopeful_future": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "clear_values": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "life_depth_moments": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "cheerful_spirits": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "college_growth": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "academic_wellbeing": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "school_time_energy": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "faculty_staff_support": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "people_to_turn_to": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "know_support_resources": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "focus_place": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "enough_sleep": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree"
+    ],
+    "parent_caregiver_support": [
+      "Strongly disagree",
+      "Disagree",
+      "Neither agree nor disagree",
+      "Agree",
+      "Strongly agree",
+      "Not applicable"
+    ],
+    "enjoyable_company": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Very often"
+    ],
+    "feels_alone": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Very often"
+    ],
+    "phone_social_media_interference": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Very often"
+    ],
+    "physical_activity": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Very often"
+    ],
+    "alcohol_cannabis_social_coping": [
+      "Never",
+      "Rarely",
+      "Sometimes",
+      "Often",
+      "Very often",
+      "Prefer not to say"
+    ],
+    "money_stress": [
+      "Not at all",
+      "Slight",
+      "Moderate",
+      "Very",
+      "Extreme",
+      "Prefer not to say"
+    ],
+    "study_hours_outside_class": [
+      "<5 hours",
+      "5-10 hours",
+      "11-19 hours",
+      "20+ hours"
+    ],
+    "age_group": [
+      "17 or younger",
+      "18-19",
+      "20-21",
+      "22-25",
+      "26 or older",
+      "Prefer not to say"
+    ],
+    "college_stage": [
+      "First year",
+      "Second year",
+      "Third year or beyond",
+      "Prefer not to say"
+    ],
+    "major_confidence": [
+      "Not confident at all",
+      "Not very confident",
+      "Unsure",
+      "Somewhat confident",
+      "Very confident",
+      "No major chosen"
+    ],
+    "spring_credits": [
+      "1-5 credits",
+      "6-8 credits",
+      "9-11 credits",
+      "12-14 credits",
+      "15+ credits"
+    ],
+    "class_modality": [
+      "All/mostly in-person",
+      "More in-person",
+      "About equal",
+      "More online",
+      "All/mostly online"
+    ],
+    "paid_work_hours": [
+      "0 hours",
+      "1-9 hours",
+      "10-19 hours",
+      "20-29 hours",
+      "30+ hours"
+    ]
+  }
+}
