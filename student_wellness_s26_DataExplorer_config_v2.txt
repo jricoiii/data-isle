@@ -1,0 +1,354 @@
+<DataExplorer
+  data={studentWellness}
+  dataInfo={student_wellness_s26}
+  categorical={[
+    factor('life_direction_meaning', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('college_work_resilience', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('campus_seen_supported', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('emotionally_steady', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('hopeful_future', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('clear_values', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('life_depth_moments', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('cheerful_spirits', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('college_growth', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('academic_wellbeing', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('biggest_challenge', [
+      'Mental health/emotional stress',
+      'Motivation/discipline',
+      'Work responsibilities',
+      'Family/caregiving responsibilities',
+      'Physical health/low energy',
+      'Not prepared for college-level work',
+      'Teaching style/quality',
+      'Nothing holding me back',
+      'Other'
+    ]),
+
+    factor('school_time_energy', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('faculty_staff_support', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('people_to_turn_to', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('know_support_resources', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('focus_place', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('enough_sleep', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree'
+    ]),
+
+    factor('parent_caregiver_support', [
+      'Strongly disagree',
+      'Disagree',
+      'Neither agree nor disagree',
+      'Agree',
+      'Strongly agree',
+      'Not applicable'
+    ]),
+
+    factor('enjoyable_company', [
+      'Never',
+      'Rarely',
+      'Sometimes',
+      'Often',
+      'Very often'
+    ]),
+
+    factor('feels_alone', [
+      'Never',
+      'Rarely',
+      'Sometimes',
+      'Often',
+      'Very often'
+    ]),
+
+    factor('phone_social_media_interference', [
+      'Never',
+      'Rarely',
+      'Sometimes',
+      'Often',
+      'Very often'
+    ]),
+
+    factor('physical_activity', [
+      'Never',
+      'Rarely',
+      'Sometimes',
+      'Often',
+      'Very often'
+    ]),
+
+    factor('alcohol_cannabis_social_coping', [
+      'Never',
+      'Rarely',
+      'Sometimes',
+      'Often',
+      'Very often',
+      'Prefer not to say'
+    ]),
+
+    factor('money_stress', [
+      'Not at all',
+      'Slight',
+      'Moderate',
+      'Very',
+      'Extreme',
+      'Prefer not to say'
+    ]),
+
+    factor('study_hours_outside_class', [
+      '<5 hours',
+      '5-10 hours',
+      '11-19 hours',
+      '20+ hours'
+    ]),
+
+    factor('life_priority', [
+      'Doing well in school',
+      'Financial stability',
+      'Family responsibilities',
+      'Friendships or relationships',
+      'Mental/emotional well-being',
+      'Enjoying life',
+      'Figuring out my future',
+      'Other'
+    ]),
+
+    factor('age_group', [
+      '17 or younger',
+      '18 or 19',
+      '20 or 21',
+      '22 to 25',
+      '26 or older',
+      'Prefer not to say'
+    ]),
+
+    factor('college_stage', [
+      'First year',
+      'Second year',
+      'Third year or beyond',
+      'Prefer not to say'
+    ]),
+
+    factor('gender', [
+      'Woman',
+      'Man',
+      'Nonbinary',
+      'Prefer not to say',
+      'Other'
+    ]),
+
+    factor('race_ethnicity', [
+      'East Asian',
+      'South Asian',
+      'Southeast Asian',
+      'Middle Eastern/North African',
+      'Latino/Hispanic',
+      'Black/African American',
+      'White',
+      'Native American/Indigenous',
+      'Pacific Islander',
+      'Multiracial',
+      'Prefer not to say'
+    ]),
+
+    factor('parent_four_year_college', [
+      'Yes',
+      'No',
+      'Not sure',
+      'Prefer not to say'
+    ]),
+
+    factor('college_goal', [
+      'Transfer',
+      'Associate degree',
+      'Certificate',
+      'Undecided',
+      'Prefer not to say',
+      'Other'
+    ]),
+
+    factor('major_field', [
+      'STEM',
+      'Social sciences',
+      'Humanities',
+      'Business',
+      'Health professions',
+      'Arts/creative fields',
+      'Career/technical fields',
+      'Undecided',
+      'Prefer not to say',
+      'Other'
+    ]),
+
+    factor('major_confidence', [
+      'Not confident at all',
+      'Not very confident',
+      'Unsure',
+      'Somewhat confident',
+      'Very confident',
+      'No major chosen'
+    ]),
+
+    factor('spring_credits', [
+      '1-5 credits',
+      '6-8 credits',
+      '9-11 credits',
+      '12-14 credits',
+      '15+ credits'
+    ]),
+
+    factor('class_modality', [
+      'All/mostly in-person',
+      'More in-person',
+      'About equal',
+      'More online',
+      'All/mostly online'
+    ]),
+
+    factor('paid_work_hours', [
+      '0 hours',
+      '1-9 hours',
+      '10-19 hours',
+      '20-29 hours',
+      '30+ hours'
+    ])
+  ]}
+
+  quantitative={[
+    'life_direction_meaning_score',
+    'college_work_resilience_score',
+    'campus_seen_supported_score',
+    'emotionally_steady_score',
+    'hopeful_future_score',
+    'clear_values_score',
+    'life_depth_moments_score',
+    'cheerful_spirits_score',
+    'college_growth_score',
+    'academic_wellbeing_score',
+    'school_time_energy_score',
+    'faculty_staff_support_score',
+    'people_to_turn_to_score',
+    'know_support_resources_score',
+    'focus_place_score',
+    'enough_sleep_score',
+    'parent_caregiver_support_score',
+    'enjoyable_company_score',
+    'feels_alone_score',
+    'phone_social_media_interference_score',
+    'physical_activity_score',
+    'alcohol_cannabis_social_coping_score',
+    'money_stress_score',
+    'study_hours_outside_class_score',
+    'major_confidence_score',
+    'spring_credits_score',
+    'paid_work_hours_score',
+    'wellbeing_index',
+    'school_support_index'
+  ]}
+/>
