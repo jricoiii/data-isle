@@ -1,0 +1,49 @@
+Student Wellness S26 Abbreviation Guide / ISLE Notes
+
+This version is designed for ISLE/DataExplorer import. It removes all numeric score columns except wellbeing_index.
+
+Kept as the only quantitative variable:
+- wellbeing_index: average of Q1-Q8 well-being items
+
+Removed from the data file:
+- all *_score variables
+- school_support_index
+
+Common abbreviated response levels:
+- SD = Strongly disagree
+- D = Disagree
+- N = Neither agree nor disagree
+- A = Agree
+- SA = Strongly agree
+- NA = Not applicable
+
+Frequency scale:
+- Nvr = Never
+- R = Rarely
+- S = Sometimes
+- O = Often
+- VO = Very often
+
+Money stress scale:
+- None = Not at all heavy
+- Slight = Slightly heavy
+- Mod = Moderately heavy
+- Very = Very heavy
+- Ext = Extremely heavy
+
+ISLE-safe range labels:
+- age_group: 17 or younger; 18 or 19; 20 or 21; 22 to 25; 26 or older; Prefer not
+- study_hours_outside_class: under 5 hours; 5 to 10 hours; 11 to 19 hours; 20 or more hours
+- spring_credits: 1 to 5 credits; 6 to 8 credits; 9 to 11 credits; 12 to 14 credits; 15 or more credits
+- paid_work_hours: 0 hours; 1 to 9 hours; 10 to 19 hours; 20 to 29 hours; 30 or more hours
+
+Other common abbreviated categories:
+- MENA = Middle Eastern / North African
+- Black/African Am. = Black / African / African American
+- Arts/creative = Arts and creative fields
+- Career/tech = Career/technical fields
+- Not conf. = Not confident at all
+- Low conf. = Not very confident
+- Some conf. = Somewhat confident
+- Very conf. = Very confident
+- No major = I have not chosen a major or area of study yet
